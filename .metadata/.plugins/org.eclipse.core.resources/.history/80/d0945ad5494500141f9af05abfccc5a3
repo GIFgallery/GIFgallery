@@ -6,7 +6,7 @@
 	xmlns:b="http://bootsfaces.net/ui">
 
 <h:head>
-	<title>GIFgallery</title>
+	<title>Project Name</title>
 	<meta name="author" content="The Author"></meta>
 </h:head>
 <h:body style="padding: 60px;">
