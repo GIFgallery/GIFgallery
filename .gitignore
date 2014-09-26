@@ -10,3 +10,13 @@
 .metadata/.mylyn/repositories.xml.zip
 
 .metadata/.plugins/org.eclipse.core.resources/.history/a7/705969fd444500141f9af05abfccc5a3
+
+*.snap
+
+*.snap
+
+.metadata/.plugins/org.eclipse.core.resources/.projects/GIFgallery/.markers.snap
+
+.metadata/.plugins/org.eclipse.core.resources/.projects/GIFgallery/.markers.snap
+
+*.snap
