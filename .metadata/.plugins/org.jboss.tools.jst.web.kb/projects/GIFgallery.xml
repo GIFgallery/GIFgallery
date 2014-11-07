@@ -101,6 +101,7 @@
   <path value="/Users/ngocduymai/Desktop/server/wildfly-8.1.0.Final/modules/system/layers/base/javax/persistence/api/main/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
   <path value="/Users/ngocduymai/Desktop/server/wildfly-8.1.0.Final/modules/system/layers/base/org/jboss/as/controller-client/main/wildfly-controller-client-8.1.0.Final.jar"/>
   <path value="/Users/ngocduymai/Desktop/server/wildfly-8.1.0.Final/modules/system/layers/base/javax/annotation/api/main/jboss-annotations-api_1.2_spec-1.0.0.Final.jar"/>
+  <path value="/Users/ngocduymai/Desktop/server/wildfly-8.1.0.Final/modules/system/layers/base/javax/management/j2ee/api/main/jboss-j2eemgmt-api_1.1_spec-1.0.1.Final.jar"/>
   <path value="/Users/ngocduymai/Desktop/GIFgallery/GIFgallery/WebContent/WEB-INF/lib/BootsFaces-0.3.7-dist.jar">
    <libraries>
     <library class="facelet">
@@ -113,7 +114,6 @@
     </library>
    </libraries>
   </path>
-  <path value="/Users/ngocduymai/Desktop/server/wildfly-8.1.0.Final/modules/system/layers/base/javax/management/j2ee/api/main/jboss-j2eemgmt-api_1.1_spec-1.0.1.Final.jar"/>
   <path value="/Users/ngocduymai/Desktop/server/wildfly-8.1.0.Final/modules/system/layers/base/org/jboss/dmr/main/jboss-dmr-1.2.0.Final.jar"/>
   <path value="/Users/ngocduymai/Desktop/server/wildfly-8.1.0.Final/modules/system/layers/base/javax/jms/api/main/jboss-jms-api_2.0_spec-1.0.0.Final.jar"/>
   <path value="/Users/ngocduymai/Desktop/server/wildfly-8.1.0.Final/modules/system/layers/base/javax/security/jacc/api/main/jboss-jacc-api_1.5_spec-1.0.0.Final.jar"/>
@@ -127,15 +127,37 @@
   <path value="/Users/ngocduymai/Desktop/server/wildfly-8.1.0.Final/modules/system/layers/base/javax/activation/api/main/activation-1.1.1.jar"/>
   <path value="/Users/ngocduymai/Desktop/server/wildfly-8.1.0.Final/modules/system/layers/base/org/jboss/resteasy/resteasy-multipart-provider/main/resteasy-multipart-provider-3.0.8.Final-jandex.jar"/>
   <path value="/Users/ngocduymai/Desktop/server/wildfly-8.1.0.Final/modules/system/layers/base/javax/transaction/api/main/jboss-transaction-api_1.2_spec-1.0.0.Final.jar"/>
+  <path value="/Users/ngocduymai/Desktop/GIFgallery/GIFgallery/WebContent/WEB-INF/lib/primefaces-4.0.jar">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-4.0.jar/meta-inf/faces-config.xml" project="GIFgallery"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-4.0.jar/meta-inf/primefaces-p.taglib.xml" project="GIFgallery"/>
+    </library>
+   </libraries>
+  </path>
   <path value="/Users/ngocduymai/Desktop/server/wildfly-8.1.0.Final/modules/system/layers/base/org/jboss/resteasy/resteasy-jaxrs/main/resteasy-client-3.0.8.Final.jar"/>
   <path value="/Users/ngocduymai/Desktop/server/wildfly-8.1.0.Final/modules/system/layers/base/org/jboss/ejb3/main/jboss-ejb3-ext-api-2.1.0.jar"/>
  </paths>
  <validation>
   <core validator-id="jsf-verification"/>
   <core validator-id="jboss.jsf.core"/>
-  <el/>
+  <el>
+   <linked-el length="41" name="%0" offset="1084" path="%1"/>
+   <linked-el length="33" name="%2" offset="1137" path="%3"/>
+   <linked-el length="41" name="%4" offset="1084" path="%1"/>
+  </el>
  </validation>
- <aliases/>
+ <aliases>
+  <alias path="fileUploadView.handleFileUpload" value="%0"/>
+  <alias path="userHandlerBean" value="%2"/>
+  <alias path="/GIFgallery/WebContent/index.xhtml" value="%3"/>
+  <alias path="/GIFgallery/WebContent/test.xhtml" value="%1"/>
+  <alias path="fileUploadView" value="%4"/>
+ </aliases>
  <includes/>
  <uris>
   <uri value="http://bootsfaces.net/ui">
@@ -146,6 +168,9 @@
   </uri>
   <uri value="http://java.sun.com/jsf/html">
    <prefix>h</prefix>
+  </uri>
+  <uri value="http://primefaces.org/ui">
+   <prefix>p</prefix>
   </uri>
  </uris>
 </kb-project>
