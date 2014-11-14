@@ -148,15 +148,17 @@
   <el>
    <linked-el length="41" name="%0" offset="1084" path="%1"/>
    <linked-el length="33" name="%2" offset="1137" path="%3"/>
-   <linked-el length="41" name="%4" offset="1084" path="%1"/>
+   <linked-el length="33" name="%4" offset="1137" path="%3"/>
+   <linked-el length="41" name="%5" offset="1084" path="%1"/>
   </el>
  </validation>
  <aliases>
   <alias path="fileUploadView.handleFileUpload" value="%0"/>
   <alias path="userHandlerBean" value="%2"/>
   <alias path="/GIFgallery/WebContent/index.xhtml" value="%3"/>
+  <alias path="/GIFgallery/src/UserHandlerBean.java" value="%4"/>
   <alias path="/GIFgallery/WebContent/test.xhtml" value="%1"/>
-  <alias path="fileUploadView" value="%4"/>
+  <alias path="fileUploadView" value="%5"/>
  </aliases>
  <includes/>
  <uris>

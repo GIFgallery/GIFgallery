@@ -5,6 +5,13 @@
 		<item value="https://github.com/GIFgallery/GIFgallery.git"/>
 		<item value="https://github.com/GIFgallery/GIFgallery"/>
 	</list>
+	<section name="org.eclipse.egit.ui.internal.dialogs.ResetTargetSelectionDialog.dialogBounds">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
+		<item value="728" key="DIALOG_HEIGHT"/>
+		<item value="458" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="GitImportWizard">
 		<item value="true" key="GitProjectsImportPage.STORE_NESTED_PROJECTS"/>
 	</section>
@@ -14,5 +21,9 @@
 		<item value="440" key="DIALOG_HEIGHT"/>
 		<item value="395" key="DIALOG_X_ORIGIN"/>
 		<item value="120" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.pull.PullResultDialog.dialogBounds">
+		<item value="569" key="DIALOG_X_ORIGIN"/>
+		<item value="289" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

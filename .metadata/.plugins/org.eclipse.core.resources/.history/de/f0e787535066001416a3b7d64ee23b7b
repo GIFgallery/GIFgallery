@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:b="http://bootsfaces.net/ui"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>GIFgallery</title>
+	<meta name="author" content="The Author"></meta>
+</h:head>
+<h:body style="padding: 60px;">
+	<b:navBar brand="GIFgallery" brandHref="#" fixed="top" inverse="true">
+		<b:navbarLinks>
+			<b:navLink value="Front Page" href="index.xhtml"></b:navLink>
+			<b:navLink value="Upload" href="#upload"></b:navLink>
+			<b:navLink value="About" href="#about"></b:navLink>
+			<b:navLink value="Contact" href="#contact"></b:navLink>
+		</b:navbarLinks>
+	</b:navBar>
+	<b:container>
+		<b:jumbotron>
+			<!-- <h1>GIFgallery</h1> -->
+			<p>This is the first test page to the new GIFgallery Webpage.</p>
+			<p>
+				<a href="test.xhtml" class="btn btn-lg btn-info">Upload my first
+					GIF »</a>
+			</p>
+		</b:jumbotron>
+	</b:container>
+	<b:container>
+	
+		<h1>Hi #{userHandlerBean.getUserName}</h1>
+	
+		<b:row>
+			<b:column col-md="3">
+				<h2>Heading</h2>
+				<p>Donec id elit non mi porta gravida at eget metus. Fusce
+					dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+					ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+					magna mollis euismod. Donec sed odio dui.</p>
+				<p>
+					<b:button outcome="" value="View details »" />
+				</p>
+			</b:column>
+			<b:column col-md="6">
+				<h2>Heading</h2>
+				<p>Donec id elit non mi porta gravida at eget metus. Fusce
+					dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+					ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+					magna mollis euismod. Donec sed odio dui.</p>
+				<p>
+					<b:button outcome="" value="View details »" />
+				</p>
+			</b:column>
+			<b:column col-md="3">
+				<h2>Heading</h2>
+				<p>Donec id elit non mi porta gravida at eget metus. Fusce
+					dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+					ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+					magna mollis euismod. Donec sed odio dui.</p>
+				<p>
+					<b:button outcome="" value="View details »" />
+				</p>
+			</b:column>
+		</b:row>
+		<b:row>
+			<b:column col-md="3" ></b:column>
+			<b:column col-md="6" >
+				<img src="gifs/Jj4kAN7.gif" alt="fuck your shit" />
+			</b:column>
+			<b:column col-md="3" ></b:column>
+		</b:row>
+		<hr />
+		<footer>
+		<p>© D'uuh Inc Lab, 2014</p>
+		</footer>
+	</b:container>
+	<a href="#upload">How to upload files </a>
+	<a href="#about">About us</a>
+	<a href="#contact">Contact us</a>
+
+</h:body>
+</html>
