@@ -5,9 +5,1592 @@
       <description>Pipes Output</description>
       <link>http://pipes.yahoo.com/pipes/pipe.info?_id=790c1cc25610e6b571d4857eaeb44fa4</link>
       <atom:link rel="next" href="http://pipes.yahoo.com/pipes/pipe.run?_id=790c1cc25610e6b571d4857eaeb44fa4&amp;_render=rss&amp;page=2" />
-      <pubDate>Fri, 07 Nov 2014 06:22:44 +0000</pubDate>
+      <pubDate>Fri, 21 Nov 2014 06:24:25 +0000</pubDate>
       <generator>http://pipes.yahoo.com/pipes/</generator>
       <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/jbossbuzz" /><feedburner:info uri="jbossbuzz" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+         <title>New Videos on Hybrid Mobile Developement Tools</title>
+         <link>http://feedproxy.google.com/~r/jbossbuzz/~3/zyPdU9s4Huk/2014-11-20-hybrid_tooling_videos.html</link>
+         <description>&lt;div class="paragraph"&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://twitter.com/burrsutter"&gt;Burr Sutter&lt;/a&gt; recently recorded and uploaded a handful of screencasts on &lt;strong&gt;Hybrid Mobile Development Tools&lt;/strong&gt; that we recently shipped in &lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/downloads/jbosstools/luna/4.2.0.Final.html"&gt;JBoss Tools 4.2.0.Final&lt;/a&gt; and &lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/downloads/devstudio/luna/8.0.0.GA.html"&gt;JBoss Developer Studio 8.0.0.Final&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Those videos (totalling more than 1h15 of materials!) cover the following topics:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/documentation/videos/hybrid_cordova_installation.html"&gt;Installation and Introduction to Apache Cordova&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/documentation/videos/hybrid_cordova_jquerymobile_rest.html"&gt;Cordova&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/documentation/videos/hybrid_cordova_device_contacts.html"&gt;Device Contacts via Apache Cordova&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/documentation/videos/hybrid_angularjs_ionic.html"&gt;Developing AngularJS + Ionic Hybrid Apps&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/documentation/videos/hybrid_push_notifications.html"&gt;Push Notifications GCM&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/documentation/videos/hybrid_fun_stuff_cordova.html"&gt;Fun Stuff with Apache Cordova&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/documentation/videos/hybrid_iphone_dev_cordova.html"&gt;iPhone Development &amp;amp; Deployment with Apache Cordova&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Sit back, grab your headphones and enjoy ;-)&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Xavier&lt;br&gt;&lt;a rel="nofollow" target="_blank" href="http://twitter.com/xcoulon"&gt;@xcoulon&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/zyPdU9s4Huk" height="1" width="1"/&gt;</description>
+         <author>xcoulon</author>
+         <guid isPermaLink="false">http://tools.jboss.org/blog/2014-11-20-hybrid_tooling_videos.html</guid>
+         <pubDate>Thu, 20 Nov 2014 00:00:00 +0000</pubDate>
+      <feedburner:origLink>http://tools.jboss.org/blog/2014-11-20-hybrid_tooling_videos.html</feedburner:origLink></item>
+      <item>
+         <title>Maven improvements in JBoss Tools 4.2 and Developer Studio 8.0</title>
+         <link>http://feedproxy.google.com/~r/jbossbuzz/~3/peXQjZKOcko/2014-11-19-maven-improvements.html</link>
+         <description>&lt;div id="preamble"&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;In JBoss Tools and JBoss Developer Studio, we&amp;#8217;re continuously working to augment the Maven integration experience in Eclipse. Some of the features we&amp;#8217;ve been playing with, if deemed successful, will eventually be contributed back to m2e, like the &lt;a rel="nofollow" target="_blank" href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=428094"&gt;Maven Profile Management UI&lt;/a&gt;. Others, more centered around JBoss technologies, will stay under the JBoss Tools umbrella.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;JBoss Tools 4.2 and Developer Studio 8, based on Eclipse Luna, take advantage of all the nice improvements made to &lt;a rel="nofollow"&gt;m2e 1.5.0&lt;/a&gt; and then, add some more :&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="m2eclipse-egit-integration"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#m2eclipse-egit-integration"&gt;&lt;/a&gt;m2eclipse-egit integration&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The &lt;em&gt;Import &amp;gt; Checkout Maven Projects from SCM&lt;/em&gt; wizard doesn&amp;#8217;t have any SCM provider by default, which can be pretty frustrating at times. With Git becoming the new de facto source control system, it only made sense to make &lt;a rel="nofollow" target="_blank" href="https://github.com/tesla/m2eclipse-egit"&gt;m2eclipse-egit&lt;/a&gt; the sensible default SCM provider for m2e.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;m2eclipse-egit will now be automatically installed when a JBoss Maven integration feature is installed from the JBoss Tools update site.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;It is installed by default with JBoss Developer Studio 8.0.0 as well.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="maven-central-archetype-catalog"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#maven-central-archetype-catalog"&gt;&lt;/a&gt;Maven Central Archetype catalog&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Since m2e 1.5.0 no longer downloads Nexus Indexes by default, a very small, outdated subset of Maven Archetypes is available out of the box.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;To mitigate that, the JBoss Tools Maven integration feature now registers by default the Maven Central Archetype catalog,
+      providing more than 9600 archetypes to chose from, when creating a new Maven project. Accessing the complete list of archetypes
+      is even way, waayyyy faster (a couple seconds) than relying on the old Nexus index download.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="maven central catalog"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="pom-properties-controlled-project-configurators"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#pom-properties-controlled-project-configurators"&gt;&lt;/a&gt;Pom properties-controlled project configurators&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;JBoss project configurators for m2e now support an activation property in the &amp;lt;properties&amp;gt; section of pom.xml. Expected values are true/false and override the workspace-wide preferences found under &lt;code&gt;Preferences &amp;gt; JBoss Tools &amp;gt; JBoss Maven Integration&lt;/code&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Available properties are :&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;code&gt;&amp;lt;m2e.cdi.activation&amp;gt;true&amp;lt;/m2e.cdi.activation&amp;gt;&lt;/code&gt; for the CDI Project configurator,&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;code&gt;&amp;lt;m2e.seam.activation&amp;gt;true&amp;lt;/m2e.seam.activation&amp;gt;&lt;/code&gt; for the Seam Project configurator,&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;code&gt;&amp;lt;m2e.hibernate.activation&amp;gt;true&amp;lt;/m2e.hibernate.activation&amp;gt;&lt;/code&gt; for the Hibernate Project configurator,&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;code&gt;&amp;lt;m2e.portlet.activation&amp;gt;true&amp;lt;/m2e.portlet.activation&amp;gt;&lt;/code&gt; for the Portlet Project configurator.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The pom.xml editor also provides matching XML templates for these properties, when doing &lt;code&gt;ctrl+space&lt;/code&gt; in the &amp;lt;properties&amp;gt; section.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="maven-repository-wizard-improvements"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#maven-repository-wizard-improvements"&gt;&lt;/a&gt;Maven Repository wizard improvements&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The Configure Maven Repositories wizard, available under &lt;code&gt;Preferences &amp;gt; Jboss Tools &amp;gt; JBoss Maven Integration&lt;/code&gt; saw a couple improvements as well :&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="sect2"&gt;
+      &lt;h3 id="advanced-options-for-maven-repositories"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#advanced-options-for-maven-repositories"&gt;&lt;/a&gt;Advanced options for maven repositories&lt;/h3&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;You can now choose the repository layout, enable/disable snapshots or releases, and change the update policy in the &lt;code&gt;advanced&lt;/code&gt; section :&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="maven repository advanced"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect2"&gt;
+      &lt;h3 id="automatically-identify-local-maven-repositories"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#automatically-identify-local-maven-repositories"&gt;&lt;/a&gt;Automatically identify local Maven repositories&lt;/h3&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;When adding a new Maven repository, you can scan for JBoss Maven repositories unzipped locally, with the &lt;code&gt;Recognize JBoss Maven Enterprise Repositories&amp;#8230;&amp;#8203;&lt;/code&gt; button, in order to automatically add it to your .m2/settings.xml.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="recognize maven repo"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The identification process now looks for a .maven-repository file at the root of the folder you selected. This file follows the &lt;a rel="nofollow" target="_blank" href="http://en.wikipedia.org/wiki/.properties"&gt;&lt;code&gt;.properties&lt;/code&gt;&lt;/a&gt; file format and is expected to contain up to 3 attributes :&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;code&gt;repository-id&lt;/code&gt; : the repository id&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;code&gt;name&lt;/code&gt; : a (descriptive) repository name. &lt;em&gt;Optional, defaults to repository-id&lt;/em&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;code&gt;profile-id&lt;/code&gt; : the profile id the repository will be activated from. &lt;em&gt;Optional, defaults to repository-id&lt;/em&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;As a concrete example, the JBoss Mobile repository .maven-repository file would contain :&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="literalblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre&gt;repository-id=local-jboss-mobile
+      name=JBoss Mobile Maven Repository
+      profile-id=local-jboss-mobile&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="what-s-next"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#what-s-next"&gt;&lt;/a&gt;What&amp;#8217;s next?&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Tired of seeing these "Project configuration is out-of-date" errors whenever you tweak your pom.xml? We&amp;#8217;re currently playing with a &lt;a rel="nofollow" target="_blank" href="https://github.com/jbosstools/jbosstools-playground#auto-update-out-of-date-maven-project-configuration"&gt;plugin&lt;/a&gt; that will automatically do the &lt;code&gt;Maven&lt;/code&gt; &amp;gt; &lt;code&gt;Update project configuration&lt;/code&gt; for you. You can try a very alpha version
+      from the following p2 repository : &lt;a rel="nofollow" target="_blank" href="http://download.jboss.org/jbosstools/builds/staging/jbosstools-playground_master/all/repo/" class="bare"&gt;http://download.jboss.org/jbosstools/builds/staging/jbosstools-playground_master/all/repo/&lt;/a&gt;. Let us know if/how it works for you, so we can decide what to do next with it.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Enjoy and see you soon!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Fred Bricon&lt;br&gt;&lt;a rel="nofollow" target="_blank" href="https://twitter.com/fbricon"&gt;@fbricon&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/peXQjZKOcko" height="1" width="1"/&gt;</description>
+         <author>fbricon</author>
+         <guid isPermaLink="false">http://tools.jboss.org/blog/2014-11-19-maven-improvements.html</guid>
+         <pubDate>Wed, 19 Nov 2014 00:00:00 +0000</pubDate>
+      <feedburner:origLink>http://tools.jboss.org/blog/2014-11-19-maven-improvements.html</feedburner:origLink></item>
+      <item>
+         <title>A JRebel Ticket Monster on OpenShift</title>
+         <link>http://feedproxy.google.com/~r/jbossbuzz/~3/PzuhvFwf9ZU/2014-11-15-a-ticketmonster-on-openshift.html</link>
+         <description>&lt;div id="preamble"&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://www.jboss.org/products/devstudio/overview/"&gt;JBoss Developer Studio&lt;/a&gt; allows you publish and run your &lt;a rel="nofollow" target="_blank" href="http://www.eclipse.org/home/index.php"&gt;Eclipse&lt;/a&gt; projects on &lt;a rel="nofollow" target="_blank" href="https://www.openshift.com/"&gt;OpenShift&lt;/a&gt;.
+      This post shows you how to get started using the &lt;a rel="nofollow" target="_blank" href="http://www.jboss.org/ticket-monster/"&gt;JBoss Developer Ticket Monster&lt;/a&gt; demo application.&lt;br&gt;
+      In a 2nd part I will show you how to change your code in Eclipse and have those changes instantly available on OpenShift using the &lt;a rel="nofollow" target="_blank" href="http://zeroturnaround.com/software/jrebel/"&gt;JRebel&lt;/a&gt; cartridge.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="deploy-and-run-ticket-monster-on-openshift"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#deploy-and-run-ticket-monster-on-openshift"&gt;&lt;/a&gt;Deploy and Run Ticket Monster on OpenShift&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="videoblock"&gt;
+      &lt;div class="content"&gt;
+      
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="get-the-code"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#get-the-code"&gt;&lt;/a&gt;Get the code&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The JBoss Developer project created the &lt;a rel="nofollow" target="_blank" href="http://www.jboss.org/ticket-monster/"&gt;Ticket Monster&lt;/a&gt; demo to showcase a modern &lt;a rel="nofollow" target="_blank" href="https://angularjs.org/"&gt;angularjs&lt;/a&gt; and JavaEE application.
+      The code for this blog is at:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="literalblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre&gt;https://github.com/adietish/ticket-monster.git&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="admonitionblock caution"&gt;
+      &lt;table&gt;&lt;tr&gt;
+      &lt;td class="icon"&gt;
+      &lt;i class="fa icon-caution" title="Caution"&gt;&lt;/i&gt;
+      &lt;/td&gt;
+      &lt;td class="content"&gt;
+      The original code for the  Ticket Monster is available at &lt;a rel="nofollow" target="_blank" href="https://github.com/jboss-developer/ticket-monster"&gt;Github&lt;/a&gt;.&lt;br&gt;
+      The webapp with its maven pom is located in the &lt;a rel="nofollow" target="_blank" href="https://github.com/jboss-developer/ticket-monster/tree/WFLY8.1/demo"&gt;demo&lt;/a&gt; folder.
+      OpenShift on the other hand is expecting a pom in the root of the git repository.
+      Without it OpenShift will not know how to build the code when you push it.
+      To fix this I created a fork of the webapp where I put the content of the demo folder to the root of the git repository
+      &lt;/td&gt;
+      &lt;/tr&gt;&lt;/table&gt;
+      &lt;/div&gt;
+      &lt;div class="olist arabic"&gt;
+      &lt;ol class="arabic"&gt;
+      &lt;li&gt;
+      &lt;p&gt;Copy this url to your clipboard and in your Eclipse, switch to the &lt;strong&gt;Git perspective&lt;/strong&gt;.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Launch the &lt;strong&gt;Clone Git Repository&lt;/strong&gt; wizard. It will popup with all the values already in place. Hit &lt;b class="button"&gt;Next&lt;/b&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Pick the master branch and hit &lt;b class="button"&gt;Finish&lt;/b&gt; to get the repo cloned to your local machine.&lt;br&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Once the cloning is done the new repo will appear in the &lt;strong&gt;Git Repositories&lt;/strong&gt; view.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Import the project within it by using menu:Import Projects&amp;#8230;&amp;#8203; in the context menu.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Back to the JBoss or Jave EE perspective you will spot the new project &lt;strong&gt;ticket-monster&lt;/strong&gt; in your workspace.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ol&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="openshift-create-an-application-for-my-project-please"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#openshift-create-an-application-for-my-project-please"&gt;&lt;/a&gt;OpenShift, create an Application for my project, please!&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;You are now ready to deploy it to OpenShift.
+      Pick &lt;strong&gt;&lt;span class="menuseq"&gt;&lt;span class="menu"&gt;Configure&lt;/span&gt;&amp;#160;&amp;#9656; &lt;span class="menuitem"&gt;New/Import OpenShift Application&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt; from the context menu of the ticket-monster project.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="configure openshift application"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The OpenShift application wizard that you now get prompts you to provide your OpenShift credentials.
+      Either use an existing account from the combo or create a new one, providing server, username and password.&lt;br&gt;
+      In the next page we choose to create a new OpenShift application and pick the application type.
+      We will use &lt;strong&gt;WildFly 8&lt;/strong&gt; which you&amp;#8217;ll find by filtering the available choices with "wildfly".
+      The latest version of OpenShift has it in the Basic Cartridges (previous versions - like the one used in the screencast - had it in the quickstarts).&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="wildfly8 application"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Once you picked it you can choose the application name in the next wizard page.&lt;br&gt;
+      The wizard suggests a name that is based on the project name.
+      OpenShift doesn&amp;#8217;t allow non-alphanumeric characters for the name, you therefore have to correct it, remove the hyphen and get "ticketmonster".&lt;br&gt;
+      You may also select the domain (if you have several ones) and possibly adjust the gear size and have your application scaling.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="application settings"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;If you now hit &lt;strong&gt;Finish&lt;/strong&gt; the wizard will create your OpenShift application, prepare your local project to run on OpenShift and create a server adapter for easy publishing.&lt;br&gt;
+      Once the wildfly cartridge is created on OpenShift, the tooling presents you the credentials to access the wildfly administrative console in a dialog.
+      You should copy those for later usage:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="wildfly admin console"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;In a last step the wizard informs you that it&amp;#8217;ll prepare your local ticket-monster project to run on OpenShift.
+      Confirm these changes by hitting &lt;b class="button"&gt;OK&lt;/b&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="prepare project for openshift"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;You are now ready to publish your ticket-monster projcet to OpenShift.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="deploy-your-project"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#deploy-your-project"&gt;&lt;/a&gt;Deploy your project!&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Get to the "Servers" view, select the freshly created server adapter and tell it to menu:publish ticket-monster to OpenShift via its context menu.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="publish to openshift"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="publish to openshift 2"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The dialog prompts you to provide a commit message and select the files that you want to commit and publish.&lt;br&gt;
+      Among the listed files is the &lt;strong&gt;.gitignore&lt;/strong&gt;.
+      Double clicking it shows you that it now includes Eclipse specific project settings.&lt;br&gt;
+      The wizard also added OpenShift configurations in the &lt;strong&gt;.openshift&lt;/strong&gt; folder. &lt;br&gt;
+      Further interesting bits are a marker to have wildFly running on &lt;strong&gt;java 8&lt;/strong&gt; (.openshift/markers/java8).
+      OpenShift markers allow you to configure specific bits like enabling debugging (Enable JPDA marker), hot deployment (Hot Deploy marker) etc.
+      You may choose among java 7 and java 8 via  marker files in .openshift/markers.
+      You can also spot a wildfly configuration file in .openshift/config/standalone.xml that you can modify to your needs.
+      Once you checked all files by clicking the &lt;b class="button"&gt;Select All&lt;/b&gt; button and provided a commit message, you&amp;#8217;re good to go.
+      You can now publish your project to OpenShift by hitting &lt;strong&gt;Commit and Publish&lt;/strong&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The tooling then informs that it will overwrite the current code in OpenShift by doing a push force. It asks you to confirm this.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="push force"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;This is required since the wizard does not properly include the remote history in our local project/git repo.
+      It clones the remote repo and then copies some of its content into the local project, it does not recursive merge since this is/was not fully reliable yet
+      (see &lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/browse/JBIDE-14890"&gt;JBIDE-14890&lt;/a&gt; for further details).
+      It is therefore required to overwrite the remote content when you do the initial deployment.
+      Once you hit &lt;strong&gt;OK&lt;/strong&gt; the server adapter is pushing the local code to OpenShift.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Eclipse then shows you the &lt;strong&gt;Console&lt;/strong&gt; with the output of the publishing operation.
+      You can see how the maven build is triggered, WildFly is restarted and your project is then deployed.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="build and deploy"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;In order to verify that your server is fully you can have a look at the logs.
+      Pick &lt;span class="menuseq"&gt;&lt;span class="menu"&gt;OpenShift&lt;/span&gt;&amp;#160;&amp;#9656; &lt;span class="menuitem"&gt;Tail files&amp;#8230;&amp;#8203;&lt;/span&gt;&lt;/span&gt; from the OpenShift submenu in the context menu of your ticketmonster server adapter.
+      The upcoming wizard allows you to fine-tune the tail files options and include the gears that your application is running on.
+      You can stick to the default which are usually just fine.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="tail files"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;A fully started Wildfly will output 'Wildfly 8.1.0.Final "Kenny" started' in the logs.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="wildfly started"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;You&amp;#8217;re now ready to have a look at your running project.
+      Pick menu:[Show In &amp;gt; Web Browser] from the context menu of your ticketmonster server adapter and see how the browser is pointed to your deployed webapp.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="open browser"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="ticket monster webapp"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="change-locally-see-openshift-change-instantly"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#change-locally-see-openshift-change-instantly"&gt;&lt;/a&gt;Change locally, see OpenShift change instantly!&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="videoblock"&gt;
+      &lt;div class="content"&gt;
+      
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect2"&gt;
+      &lt;h3 id="install-jrebel"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#install-jrebel"&gt;&lt;/a&gt;Install JRebel&lt;/h3&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;We are now getting a step further and show you how we can change the application code locally and have those changes instantly available on OpenShift.&lt;br&gt;
+      To achieve this you need to install the &lt;a rel="nofollow" target="_blank" href="http://zeroturnaround.com/software/jrebel/"&gt;JRebel&lt;/a&gt; plugin into your JBoss Developer Studio.
+      The Eclipse plugin is available from JBoss Central.
+      Switch to the Software/Updates tab, search for JRebel, check it once it is listed and hit "Install/Update".
+      Once you restarted Eclipse your have JRebel enabled in your IDE&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="install jrebel"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect2"&gt;
+      &lt;h3 id="enable-jrebel-for-your-project"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#enable-jrebel-for-your-project"&gt;&lt;/a&gt;Enable JRebel for your Project&lt;/h3&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Open up the context menu of your project and enable the &lt;strong&gt;JRebel Nature&lt;/strong&gt; for your project (menu:[JRebel &amp;gt; Add JRebel Nature]).
+      In a 2nd step then enable &lt;strong&gt;JRebel Remoting&lt;/strong&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="enable jrebel remoting"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;You have to configure the local JRebel where to publish to.
+      You therefore need the public URL of your ticket monster as it runs on OpenShift.
+      You get this in the application details: pick &lt;span class="menuseq"&gt;&lt;span class="menu"&gt;OpenShift&lt;/span&gt;&amp;#160;&amp;#9656; &lt;span class="menuitem"&gt;Details&lt;/span&gt;&lt;/span&gt; and copy the &lt;strong&gt;Public URL&lt;/strong&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="application public url"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Paste it to the JRebel Deployment URL(s) by picking &lt;strong&gt;Advanced Properties&lt;/strong&gt; from the JRebel context menu of your ticket-monster project.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="jrebel deployment url"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect2"&gt;
+      &lt;h3 id="downgrade-to-java-7"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#downgrade-to-java-7"&gt;&lt;/a&gt;Downgrade to Java 7&lt;/h3&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Wildfly is configured to run with Java 8 by default. With JRebel enabled the OpenShift small gear that you get for free tends to run out of memory.
+      It is therefore suggested that you downgrade to Java 7.
+      You go to the context menu of your project and pick *&lt;span class="menuseq"&gt;&lt;span class="menu"&gt;OpenShift&lt;/span&gt;&amp;#160;&amp;#9656; &lt;span class="menuitem"&gt;Configure Markers&amp;#8230;&amp;#8203;&lt;/span&gt;&lt;/span&gt;, uncheck java8 and check Java 7.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="java7 marker"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect2"&gt;
+      &lt;h3 id="add-the-jrebel-cartridge-in-openshift"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#add-the-jrebel-cartridge-in-openshift"&gt;&lt;/a&gt;Add the JRebel cartridge in OpenShift&lt;/h3&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The JRebel cartridge for OpenShift, available from &lt;a rel="nofollow" target="_blank" href="https://github.com/openshift-cartridges/openshift-jrebel-cartridge"&gt;Github&lt;/a&gt;, makes it very easy to enable JRebel for any Java app on OpenShift.
+      To add this cartridge to your application you get to the Servers view and choose menu: OpenShift[Edit Embedded Catridges&amp;#8230;&amp;#8203;].&lt;br&gt;
+      In the upcoming wizard you check the &lt;strong&gt;Code Anything&lt;/strong&gt; cartridge and paste the following url:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="literalblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre&gt;https://cartreflect-claytondev.rhcloud.com/reflect?github=openshift-cartridges/openshift-jrebel-cartridge&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="code anything cartridge"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Once you hit &lt;b class="button"&gt;Finish&lt;/b&gt; the wizard will add the cartridge to your OpenShift application and enable JRebel for it.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect2"&gt;
+      &lt;h3 id="publish-your-project-to-openshift"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#publish-your-project-to-openshift"&gt;&lt;/a&gt;Publish your project to OpenShift&lt;/h3&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;You now have to push all your local changes to OpenShift (you added the JRebel nature and downgraded to java7).
+      You have to tell the server adapter to publish:
+      Choose &lt;strong&gt;Publish&lt;/strong&gt; in the context menu of your OpenShift server adapter.&lt;br&gt;
+      The upcoming commit- and publish-dialog shows your local changes:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="jrebel changes"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;You replaced the java8 with a java7 marker and added 2 xml files that configure JRebel.
+      Once you add a commit message you&amp;#8217;re ready to hit &lt;strong&gt;Commit and Publish&lt;/strong&gt;.&lt;br&gt;
+      If you now go to the &lt;strong&gt;Console&lt;/strong&gt; view and pick the ticketmonster, you will see how OpenShift picks those changes and rebuilds your code.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="ticketmonster console"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;You can inspect the server logs to make sure wildfly the procedure is all finished and widlfly fully restarted.
+      In the Servers view, pick &lt;span class="menuseq"&gt;&lt;span class="menu"&gt;OpenShift&lt;/span&gt;&amp;#160;&amp;#9656; &lt;span class="menuitem"&gt;Tail Files&amp;#8230;&amp;#8203;&lt;/span&gt;&lt;/span&gt;, stick to the default options and hit &lt;b class="button"&gt;Finish&lt;/b&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="wildfly started"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;'WildFly 8.1.0.Final "Kenny" started' in the logs tells you that wildfly was successfully restarted.
+      You are now ready to change code locally and have them picked up in OpenShift instantly.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect2"&gt;
+      &lt;h3 id="pick-my-local-changes-instantly-openshift"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#pick-my-local-changes-instantly-openshift"&gt;&lt;/a&gt;Pick my local changes instantly, OpenShift!&lt;/h3&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;We will change the ticket price and we will therefore first check the current price.
+      Use &lt;span class="menuseq"&gt;&lt;span class="menu"&gt;Show In&lt;/span&gt;&amp;#160;&amp;#9656; &lt;span class="menuitem"&gt;Browser&lt;/span&gt;&lt;/span&gt; in the context menu of your server adapter which will open up the application in your browser.
+      In your browser then hit hit &lt;strong&gt;Buy tickets now&lt;/strong&gt;, &lt;strong&gt;Book Ticket&lt;/strong&gt;, choose some venue, date, time and section. You will then see the current price:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="ticket price1"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Back in your JBoss Developer Studio let us now change the ticket price:&lt;br&gt;
+      Open up the &lt;strong&gt;TicketPrice&lt;/strong&gt; and get to the &lt;strong&gt;getPrice()&lt;/strong&gt; method. Change it to the following:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="listingblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre class="highlight"&gt;&lt;code class="language-java"&gt;    public float getPrice() {
+          //   return price;
+          	return createFakePrice();
+          }
+      
+          private float createFakePrice() {
+      		return 42f;
+      	}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;When you &lt;strong&gt;save&lt;/strong&gt; your Java editor, you will see the JRebel console popping up and show you how it is updating the java classes in OpenShift.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="rebel updating openshift"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Now get back to your browser and refresh the page.
+      You will have to select the venue again in order to see the new ticket price: It is now at &lt;strong&gt;$42&lt;/strong&gt;!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="ticket price2"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;We did not have to publish our code to OpenShift via the server adapter. JRebel published our local changes on the fly!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/PzuhvFwf9ZU" height="1" width="1"/&gt;</description>
+         <author>adietish</author>
+         <guid isPermaLink="false">http://tools.jboss.org/blog/2014-11-15-a-ticketmonster-on-openshift.html</guid>
+         <pubDate>Sat, 15 Nov 2014 00:00:00 +0000</pubDate>
+      <feedburner:origLink>http://tools.jboss.org/blog/2014-11-15-a-ticketmonster-on-openshift.html</feedburner:origLink></item>
+      <item>
+         <title>This week in JBoss (14th November 2014) : xPaaS All The Things</title>
+         <link>http://feedproxy.google.com/~r/jbossbuzz/~3/nHHj_PQ13_c/this-week-in-jboss-14th-november-2014-xpaas-all-the-things</link>
+         <description>&lt;div class="jive-rendered-content"&gt;&lt;p&gt;Welcome to the JBoss weekly editorial. This is a premiere for me, because it's actually the first ever post on this blog. It is my pleasure to bring you the most important news from the JBoss Community for this week.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h1&gt;Devoxx 2014&lt;/h1&gt;&lt;p&gt;This week was all about Devoxx Belgium. With Red Hat as a Platinum sponsor there's been a lot going on around it. Beside the fact, that we hat 12 speaker on site which gave a total of 18 sessions we also had the pleasure to talk about our xPaaS offerings in the Wednesday keynote. In this keynote we took a look at what&amp;#8217;s happening today around cloud and PaaS and presented some ideas and visions as to what may be the future of enterprise application development. The demo included a complete integration beginning with a mobile client and reaching all the way through to JBoss Fuse running on Open Shift Enterprise. The following blog-posts summarize the technical background of the keynote and give further pointer for you to dig into:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;"&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/what_is_your_x_the_technical_details_about_the_devoxx_keynote_demo"&gt;What is your x? The technical details about the keynote demo at Devoxx&lt;/a&gt;"&lt;/li&gt;&lt;li&gt;"&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.feedhenry.com/pushing-ahead-with-integrations/"&gt;FeedHenry and Red Hat Pushing ahead with Integrations&lt;/a&gt;"&lt;/li&gt;&lt;li&gt;"&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://aerogear.org/news/2014/11/11/aerogear-feedhenry-integration/index.html"&gt;FeedHenry meets AeroGear UnifiedPush Server!&lt;/a&gt;"&lt;/li&gt;&lt;li&gt;"&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="https://planet.jboss.org/post/devoxx_keynote_feedhenry_aerogear_demo"&gt;Devoxx keynote Feedhenry AeroGear demo&lt;/a&gt;"&lt;/li&gt;&lt;li&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;"&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.redhat.com/en/about/press-releases/red-hat-launches-new-release-openshift-enterprise-and-adds-private-ipaas"&gt;Red Hat Launches New Release of OpenShift Enterprise and Adds Private iPaaS&lt;/a&gt;"&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;"&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="https://blog.openshift.com/announcing-openshift-enterprise-2-2/"&gt;Announcing OpenShift Enterprise 2.2&lt;/a&gt;"&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;"&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.schabell.org/2014/11/best-way-recap-devoxx-2014-mastering-xpaas.html"&gt;Best Way to Recap Devoxx 2014 Mastering xPaaS University Session&lt;/a&gt;"&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;Beside that, another new initiative has been launched at Devoxx. The content portal Voxxed. Arun Gupta took the chance to publish a first &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/java_ee_7_video_course_on_voxxed_com"&gt;Java EE 7 Course&lt;/a&gt;. Further on he published his slides from his Devoxx university talk "&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/slides_from_nuts_and_bolts_of_websocket_at_devoxx_2014"&gt;Nuts and Bolts of Websocket&lt;/a&gt;". And I gave an interview to Voxxed about &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="https://www.voxxed.com/blog/2014/11/markus-eisele-on-java-ee-and-community/"&gt;Java EE and why it is important to contribute&lt;/a&gt; to the community.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;&lt;a rel="nofollow" target="_blank" href="https://developer.jboss.org/servlet/JiveServlet/showImage/38-5617-23993/Capture.PNG"&gt;&lt;img alt="Capture.PNG" class="image-0 jive-image" height="370" src="https://developer.jboss.org/servlet/JiveServlet/downloadImage/38-5617-23993/Capture.PNG" style="height:225px;width:620px;" width="1020"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;h1&gt;News in Middleware and OpenShift&lt;/h1&gt;&lt;p&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;Mark Little pushed out some thoughts about the trends in middleware. &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/open_source_trends_talk"&gt;His OpenSlava keynote&lt;/a&gt; was recorded and is now available for everybody to watch. More generally he &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/the_enterprise_middleware_platform"&gt;reflected about EAP and the platform&lt;/a&gt; this week. The OpenShift team published a twenty minute &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="https://blog.openshift.com/docker-hub-images/"&gt;interview which gets to the core of what OpenShift V3&lt;/a&gt; is all about and how Red Hat's deep portfolio of open source solutions and outside community projects come together to make it all possible. You can also learn &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="https://blog.openshift.com/deploying-postgresql-pod-openshift-v3/"&gt;how to deploy a PostgresSQL Pod in OpenShift V3&lt;/a&gt;. The OptaPlanner Team wrote about the &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.optaplanner.org/blog/2014/11/07/OpenBenchmarksForTheWin.html"&gt;importance for open benchmarks&lt;/a&gt;. Another article in the series about "Tricks Competitors Play" talks about "&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://rhjm.naszcyniec.com/blog/?p=53"&gt;pushing less functional products&lt;/a&gt;".&lt;/span&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h1&gt;Messaging and Integration&lt;/h1&gt;&lt;p&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;The RHQ Team is busy to integrate messaging into RHQ and they started to &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/messaging_infrastructure_using_activemq"&gt;work on rhq-msg&lt;/a&gt; which is a simple messaging API built on top of ActiveMQ and JMS. The tools team released an &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/early_access_to_luna_capable_integration_tools"&gt;early access version of the Integration Tools for Eclipse Luna&lt;/a&gt;. Jamie Goodyear wrote a little tool which outputs your &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://icodebythesea.blogspot.be/2014/11/want-to-see-your-top-apache-camel.html"&gt;Camel route metrics in a Linux top like manner&lt;/a&gt;. Claus Ibsen wrote about what &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.davsclaus.com/2014/11/apache-camel-please-explain-me-what.html"&gt;is cooking for next Camel 2.15 release&lt;/a&gt; which will be a lot smarter.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;h1&gt;Travel and Reports&lt;/h1&gt;&lt;p&gt;&lt;span style="line-height:1.5em;font-size:10pt;"&gt;I pushed another trip report about my recent &lt;/span&gt;endeavors&lt;span style="line-height:1.5em;font-size:10pt;"&gt;. This time it gives you some impressions from the amazing &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/trip_report_joker_conf_2014"&gt;JokerConf&lt;/a&gt; which was held in Russia.&lt;/span&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h1&gt;New Releases&lt;/h1&gt;&lt;p&gt;There were two new releases this week:&lt;/p&gt;&lt;ul&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://forge.jboss.org/news/2014-11-07/forge-2.12.2.final-(pins)-is-here"&gt;Forge 2.1.2.2.Final (Pins)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="https://blog.openshift.com/announcing-openshift-enterprise-2-2/"&gt;OpenShift Enterprise 2.2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;That's all for this week, please join us again next week when we will bring you more news and events from the JBoss Community.&lt;/p&gt;&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/nHHj_PQ13_c" height="1" width="1"/&gt;</description>
+         <author>Markus Eisele</author>
+         <guid isPermaLink="false" />
+         <pubDate>Fri, 14 Nov 2014 11:10:51 +0000</pubDate>
+      <feedburner:origLink>https://developer.jboss.org/blogs/weekly-editorial/2014/11/14/this-week-in-jboss-14th-november-2014-xpaas-all-the-things</feedburner:origLink></item>
+      <item>
+         <title>SwitchYard Service Debugger</title>
+         <link>http://feedproxy.google.com/~r/jbossbuzz/~3/fzbaw1f_CEc/2014-11-14-switchyard-debugger.html</link>
+         <description>&lt;div id="preamble"&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;This post introduces the new service debugger for JBoss SwitchYard and provides the reader with an overview of SwitchYard’s capabilities, as demonstrated in its example “quickstart” programs.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="admonitionblock warning"&gt;
+      &lt;table&gt;&lt;tr&gt;
+      &lt;td class="icon"&gt;
+      &lt;i class="fa icon-warning" title="Warning"&gt;&lt;/i&gt;
+      &lt;/td&gt;
+      &lt;td class="content"&gt;
+      To install this feature in Developer Studio 8 and JBoss Tools 4.2 you should enable 'Early Access' in Central and install the 'JBoss Integration and SOA Development' connector. See more in the &lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/blog/2014-11-13-JBTIS-Beta1-for-luna.html"&gt;Integration Stack Beta release blog&lt;/a&gt;.
+      &lt;/td&gt;
+      &lt;/tr&gt;&lt;/table&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="introduction"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#introduction"&gt;&lt;/a&gt;Introduction&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;One of the most useful (and by the way, also one of the coolest) features of JBoss SwitchYard (&lt;a rel="nofollow" target="_blank" href="http://switchyard.jboss.org/" class="bare"&gt;http://switchyard.jboss.org/&lt;/a&gt;) is its graphical process editor. The editor enables you to create composite service definitions through a graphical interface, instead of having to directly edit cumbersome raw XML. For example:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 1" width="640" height="348"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The big blue box in the center window is called the canvas. Here’s where you can see the graphical representation of the service definition. With SwitchYard, it’s all about the services. With the SwitchYard editor, you can create the services, and not just edit Java source code.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;What’s always been missing has been a corresponding tool for debugging SwitchYard Services. This gap is now being filled by the SwitchYard Debugger.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="the-switchyard-debugger"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#the-switchyard-debugger"&gt;&lt;/a&gt;The SwitchYard Debugger&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;A debugger such as GDB provides you with the ability to interrupt a program’s execution through breakpoints so that you can examine code and data. In SwitchYard, however, you’re not just dealing with Java classes, you 're creating (and debugging) services. The SwitchYard debugger lets you add a breakpoint to any service or reference to a service. The debugger supports these actions:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;Breakpoints can be configured to stop at various points in the execution chain, including service entry or transaction setup (entry, teardown, fault).&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;If you add a breakpoint on a service, the breakpoint will trigger for any reference or composite service invoking that service. In contrast, if you add a breakpoint on a service reference, it will only break when that reference is invoked.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;You can also set breakpoints on a composite service to debug validators and transformers (both inbound and outbound). You would do this if you want to see what’s going through a particular transformer or validator which may be used by a number of interactions.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;If you configure a breakpoint to break on transactions, it will break into the SwitchYard TransactionHandler.handleMessage() method. This generates a stack trace that includes SwitchYard details (for example, an Exchange) that are visible in the SwitchYard context view, so that you can examine elements such as message contents and context properties.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;In contrast to a Java debugger, the SwitchYard debugger enables you to invoke breakpoints during steps (such as transformation) during the execution of the service, right in the service bus:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;Breakpoints on component services and composite references (in other words, providers) will break anytime they are invoked, regardless of who is calling them.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Breakpoints on composite services and component references (in other words, consumers) will break whenever they call out.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;So, if you’re having a problem with a service, putting a breakpoint in the service, will allow you to see what’s going in or out. If you’re having a problem with a component or endpoint, putting a breakpoint on a consumer will allow you to see what’s going in/out, and where it’s going.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;With regard to the locations within a service (for example, transformation), if you have a specific problem, such as if you’re seeing policy exceptions or transactions aren’t working the way you expect, you can set it to break during the policy phase or the transaction phase to see just what’s going on (which policies are required, which are provided).&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The best way to understand the new debugger is to see it in action. We’ll do this by using the debugger with SwichYard "quickStart" example programs. Let’s get started!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="getting-switchyard"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#getting-switchyard"&gt;&lt;/a&gt;Getting SwitchYard&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Before we can see the debugger in action, we have to install the SwitchYard runtime and its corresponding Eclipse tooling. Luckily, downloading and installing JBoss software* is quick and painless (and free!)&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The steps to install the SwitchYard runtime are:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;Install the WildFly 8.0 server - Download and unzip this file: &lt;a rel="nofollow" target="_blank" href="http://download.jboss.org/wildfly/8.0.0.Final/wildfly-8.0.0.Final.zip" class="bare"&gt;http://download.jboss.org/wildfly/8.0.0.Final/wildfly-8.0.0.Final.zip&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Install SwitchYard onto the installed WildFly server - Download and unzip this file over the installed WildFly server - &lt;a rel="nofollow" target="_blank" href="http://downloads.jboss.org/switchyard/releases/v2.0.Alpha2/switchyard-2.0.0.Alpha2-WildFly.zip" class="bare"&gt;http://downloads.jboss.org/switchyard/releases/v2.0.Alpha2/switchyard-2.0.0.Alpha2-WildFly.zip&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The steps to install SwitchYard’s Eclipse tooling are:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;Install Eclipse Luna - Download the compressed file from &lt;a rel="nofollow" target="_blank" href="http://www.eclipse.org/downloads/packages/release/Luna" class="bare"&gt;http://www.eclipse.org/downloads/packages/release/Luna&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Install JBoss Tools version 4.2.1 from the Eclipse Marketplace&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Install the SwitchYard tooling from &lt;a rel="nofollow" target="_blank" href="http://download.jboss.org/jbosstools/updates/development/luna/integration-stack/aggregate/4.2.0.Beta1/" class="bare"&gt;http://download.jboss.org/jbosstools/updates/development/luna/integration-stack/aggregate/4.2.0.Beta1/&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Create a new runtime definition for WildFly 8.0 in Eclipse&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;(We’re using the latest versions of the software available when this post is being written.)&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="the-quickstarts"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#the-quickstarts"&gt;&lt;/a&gt;The Quickstarts&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;One of the helpful features included with JBoss projects are example programs referred to as “quickstarts.” As the name implies, the goal of these examples is to help users get started quickly in learning technologies provided by JBoss projects. As we mentioned earlier in this post, the approach that we’ll take is to introduce a bugs into quickstarts, and then use the debugger to locate these bugs.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;To introduce SwitchYard applications to new users, we’ll examine the first quickstart that we’ll use in some detail. If you are already familiar with SwitchYard applications, you can skip over this section of the post.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Let’s start by using the debugger to interrupt a running service in a quickStart and enable us to examine the data in a message being processed by the service. After this, we’ll take things one step further and introduce a bug into a service and then use the debugger to find the cause of the bug and work around it.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="looking-under-the-hood-of-a-quickstart"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#looking-under-the-hood-of-a-quickstart"&gt;&lt;/a&gt;Looking under the Hood of a Quickstart&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Before we examine how the debugger can be used with a quickStart we’ll take a look at how quickstarts are implemented and how to use the SwitchYard editor.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The first quickstart that we’ll run makes use of Apache Camel to implement content based routing to route messages to selected services. This quickstart is aptly named: rules-camel-cbr. Before we run the quickstart, let’s take a quick look at how it works.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;To understand how the quickstart is constructed and how it works, we’ll examine it by looking at these 3 elements:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;The quickstart’s service based design. We’ll look at this through the SwitchYard visual editor.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;SwitchYard’s integration of camel routes with the quickstart’s services.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;The support for testing that SwitchYard provides.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Let’s start by looking at the design of the quickstart application and its services.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;To import the quickstart into our JBDS workspace, navigate to File→Import→Maven→Existing Maven Projects:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 2" width="400" height="361"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Browse to the quickstarts directory under the directory into which you installed SwitchYard, select the quickstart and it is imported.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 3" width="613" height="640"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="the-switchyard-service-editor"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#the-switchyard-service-editor"&gt;&lt;/a&gt;The SwitchYard Service Editor&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The SwitchYard graphical application editor enables you to create services and references to services, configure gateway bindings for all the protocols that SwitchYard supports, configure message transformers (to convert messages from one format to another), create skeletons of the classes, interfaces, and unit tests for your services.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The service definitions that you create in the editor are stored in a file named switchyard.xml. In the quickstart, this file is located in the src/main/resources/META-INF directory. All the quickstarts that we’ll use in this post follow this same pattern. Let’s open this file in the editor and take a look around.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 4" width="237" height="400"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;To open the file in the editor, simple double-click on the switchyard.xml file’s icon. When the editor opens, here’s what we see:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 5" width="400" height="218"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The big blue box in the center window is called the canvas. Here’s where you can see the graphical representation of the service definitions:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 6" width="390" height="400"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;At this point, we should take a moment to understand the graphical symbols that are used in the service definitions.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The visual elements defined in switchyard.xml conform to the OASIS Service Component Architecture Assembly Model Specification (&lt;a rel="nofollow" target="_blank" href="http://docs.oasis-open.org/opencsa/sca-assembly/sca-assembly-spec-v1.1.html" class="bare"&gt;http://docs.oasis-open.org/opencsa/sca-assembly/sca-assembly-spec-v1.1.html&lt;/a&gt;). The Service Component Architecture (SCA) model provides standards for building SOA applications.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;A green chevron represents a service definition. The corresponding purple chevron represents a reference to a service. The blue rectangles are service components. These are containers that can hold implementations or one or more services through references.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Why was this standard selected as the lingua franca of SwitchYard configuration? What advantages does using this standard give us? There are multiple levels of advantages:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;The SwitchYard team is using a modular approach that makes it easier to define and maintain a service’s configuration. A switchyard.xml can contain binding info in the same file as the service implementation, but SCA also supports recursive composition, so that one service with just implementation details, can be included inside another. We’ll take a look at the SCA files and pictures that Switchyard tooling makes easy to create and maintain.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;SwitchYard also wanted to make service interface (or the service "contract")  information more explicit, and therefore easier to find.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Finally, the SwitchYard team had a choice.  They could create a new configuration syntax, or they could try to use something that already existed, was an accepted open standard, and was supported by a vibrant community. (They chose the latter.) Also, SCA is a well-known model for service-oriented applications. But, it’s important to not get too hung-up over the underlying configuration model. The capabilities that the model makes possible, such as modularity, are more important. And, another reason to not worry too much about the configuration model is that SwitchYard provides you with tools such as Forge scripting (and someday soon a SCA editor) to make it easier to create and maintain services' configurations.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The set of fundamental service definition symbols is defined in the OASIS Service Component Architecture Assembly Model Specification here: &lt;a rel="nofollow" target="_blank" href="http://docs.oasis-open.org/opencsa/sca-assembly/sca-assembly-1.1-spec-CD-01.html#_Toc193601722" class="bare"&gt;http://docs.oasis-open.org/opencsa/sca-assembly/sca-assembly-1.1-spec-CD-01.html#_Toc193601722&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The other symbols relate to the SwitchYard-specific service implementations and bindings. For example, the RoutingService is implemented as a Camel XML service, the DestinationService is implemented as a JBoss Drools service, and the Red, Blue, and Green services are implemented as Java Bean services.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The full range of options supported by SwitchYard is displayed in the Palette view:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 7" width="135" height="400"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;(Yes, it’s a long list. You have to scroll to see all the options.)&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;One thing to keep is that while this service definitions are persisted in an .xml file, and while you are able to view the contents of that file, you should not attempt to edit the raw XML in that file. The editor has built in protections to ensure that you do not create an invalid configuration. These protections are not in effect if you edit the raw XML directly. Accordingly, while we’ll examine both the information available to you in the graphical editor and the switchyard.xml file, we’ll focus on using the editor.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Let’s start by examining the application service design as presented by the editor, in the context of the application logic flow, then we’ll look a bit deeper into how you can create and manage the application design through the editor.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;What happens in the quickstart is a three step process:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;First, the incoming message is routed, by the RoutingService to the DestinationService&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Second, the DestinationService uses JBossDrools to determine the correct destination for that message, based on the content in the message&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Third, the RoutingServer then routes the message to the correct final destination (the Red, Green, or Blue service&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;How is this all accomplished? Let’s look at the RoutingService definition. Select the RoutingService in the diagram, open the Properties view and you’ll see this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 8" width="400" height="48"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Remember that this service is a Camel XML service. The implementation of that route is defined in the route.xml file. The route definitions take the form of a Spring DSL. (See &lt;a rel="nofollow" target="_blank" href="http://camel.apache.org/spring-xml-extensions.html" class="bare"&gt;http://camel.apache.org/spring-xml-extensions.html&lt;/a&gt; for more details.)&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The contents of this file are pretty self-explanatory as the destination color determines the ultimate destination. For example:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="literalblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre&gt;&amp;lt;from uri="switchyard://RoutingService"/&amp;gt;
+      &amp;lt;to uri="switchyard://DestinationService"/&amp;gt;
+        &amp;lt;choice&amp;gt;
+          &amp;lt;when&amp;gt;
+              &amp;lt;simple&amp;gt;${body.destination} == 'Red'&amp;lt;/simple&amp;gt;
+          &amp;lt;to uri="switchyard://RedService"/&amp;gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="switchyard-and-routing-with-camel-with-help-from-jboss-drools"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#switchyard-and-routing-with-camel-with-help-from-jboss-drools"&gt;&lt;/a&gt;SwitchYard and Routing With Camel (with help from JBoss Drools)&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;What happens when the quickstart processes a message is:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;First, the incoming message is routed, by the RoutingService to the DestinationService.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;As seen in route.xml:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="literalblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre&gt;    &amp;lt;from uri="switchyard://RoutingService"/&amp;gt;
+          &amp;lt;to uri="switchyard://DestinationService”/&amp;gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Let’s look at the DestinationService definition. Select the DestinationService in the diagram, open the Properties view and you’ll see this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 9" width="400" height="118"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Then, the DestinationService service uses an MVEL statement to find the Widget class’s ID, and rules defined in JBoss Drools (remember that this service is implemented as a JBoss Drools service) to set the Destination value:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;As seen in DestinationServiceRules.drl:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="literalblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre&gt;rule "Red Destination"
+          when
+              $widget : Widget(id matches "FF0000-.*")
+          then
+              $widget.getBox().setDestination("Red");
+      end&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Then, the route logic continues in a structure to route the message to the correct destination:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;OK. We have the Destination value set in each widget. But, how does the widget get routed to the correct destination?&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Camel provides a Java DSL (Domain Specific Language) to implement routes. In the DSL, a camel route contains a source ("from") and a destination ("to). These reference the RoutingService and DestinationService interfaces that we just saw in the SwitchYard editor.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;In the case of the quickstart, the route definitions take the form of a Spring DSL. The route is self-explanatory, even if you do not have experience with Camel. The destination service is selected based on the content; Red, Green, or Blue.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="test-support-in-switchyard"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#test-support-in-switchyard"&gt;&lt;/a&gt;Test Support in SwitchYard&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;There’s just one more thing we have to look at before we run the quickstart - how to start the chain reaction of tasks that the quickstart will perform.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Testing server-side applications such as those built with SwitchYard can be difficult. Since this is server-side software, you have to install and run a server, the application has to be deployed to that server, and then you have to construct a client to access the application on the server. You can end up in a situation where you have to build either a throwaway test client, or a reusable test framework.  Either way, you have to invest time and effort into building something other than your application.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Luckily, JBoss SwitchYard provides a built in framework that makes testing your applications fast and easy. This QuickStart makes use of the SwitchYardRunner class. SwitchYardRunner is a JUnit Runner class, but more than that, it starts up an embedded SwitchYard runtime. When this embedded runtime starts, your application is packaged up as a SwitchYard application that is deployed to the test instance.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;To make use of SwitchYard’s test support, all you have to do is to annotate the test with the SwitchYardRunner JUnit test Runner class. This class will startup an embedded SwitchYard runtime, one for each test method, and then package up the test into a SwitchYard application and deploy that application to the runtime.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;In addition to the SwitchYardRunner class, SwitchYard also makes testing easy by providing the  TestMixIn feature. TestMixIns enable to turn on additional test support, based on the specific needs of your application.  This quickstart makes use of the CDIMixIn to register its bean services. Some of the other TestMixIns support testing http services, JBoss Smooks transformations, and JMS services.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="building-deploying-and-running-the-quickstart"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#building-deploying-and-running-the-quickstart"&gt;&lt;/a&gt;Building, Deploying, and Running the Quickstart&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;OK, enough talk. Let’s run the quickstart.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;First, deploy the quickstart to a SwitchYard server. In JBDS, this is a simple task. It can be done with the server either started or stopped, but let’s start the server first so that you more easily spot the server logging messages when the quickstart is deployed.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;To start the server, select it in the “servers” view, and press the start button.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 10" width="400" height="57"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The server console window will open, and you should see something like this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="literalblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre&gt;21:21:59,145 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+      21:21:59,146 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+      21:21:59,146 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.0.0.Final "WildFly" started in 4060ms&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Then, to deploy the quickstart, select the server in the “servers” view again, right-click, select “Add/Remove Applications” and select the quickstart.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 11" width="400" height="385"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Switch back to the console view and you should see something like this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) JBAS018559: Deployed "switchyard-quickstart-rules-camel-cbr.jar" (runtime-name : "switchyard-quickstart-rules-camel-cbr.jar")&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;To run the client test program, select the rules-camel-cbr/src/test/java/org/switchyard/quickstarts/rules/camel/cbr/RulesCamelCBRTest.java Java source file, and run it as a JUnit test.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Switch back to the server console, and you’ll see the quick start’s output!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="literalblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre&gt;INFO  [org.switchyard.quickstarts.rules.camel.cbr.RedServiceBean] Red service processing boxed widget with id: FF0000-ABC-123
+      INFO  [org.switchyard.quickstarts.rules.camel.cbr.GreenServiceBean] Green service processing boxed widget with id: 00FF00-DEF-456
+      INFO  [org.switchyard.quickstarts.rules.camel.cbr.BlueServiceBean] Blue service processing boxed widget with id: 0000FF-GHI-789&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;And the green bar appears!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 12" width="640" height="78"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Now, we’ll use the debugger to interrupt a running service in a QuickStart and enable us to examine the data in a message being processed by the service. After this, we’ll take things one step further and introduce a bug into a service and then use the debugger to find that bug.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="setting-a-breakpoint-in-the-debugger"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#setting-a-breakpoint-in-the-debugger"&gt;&lt;/a&gt;Setting a Breakpoint in the Debugger&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Let’s start by setting a breakpoint on the Blue service. We’ll use this breakpoint to enable us to view the contents of the message received by the service. For the purposes of our first example, we’ll use the Blue service.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;To set a breakpoint in the SwitchYard editor, first position the cursor over the service’s green chevron icon. A small palette of icons is displayed:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 13" width="258" height="124"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;To set a breakpoint on the service, select the eyeglasses icon. The presence of this icon on a service definition as seen in the SwitchYard editor indicates that a breakpoint is set:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 14" width="149" height="79"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Notes that as we are adding a breakpoint on the service, the breakpoint will trigger for any reference or composite service invoking that service. In contrast, if you add a breakpoint on a service reference, it will only break when that reference is invoked.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;To view and modify the breakpoint’s properties, open the Debug perspective and look in the breakpoints view:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 15" width="400" height="63"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;And then right-click on the breakpoint, to view and edit the breakpoint’s properties:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 16" width="400" height="259"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;For our example, we’ll use the default properties. We’re mainly concerned with the breakpoint being triggered at service entry.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Now that our breakpoint has been defined, let’s run the RulesCamelCBRTest program again.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;To run the test with the debugger, right-click on RulesCamelCBRTest, select Debug As→JUnit Test:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 17" width="572" height="76"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;When the breakpoint is reached, the program is suspended. If we look in the Variables view in the Debug perspective, we can see the incoming message and the values that controlled the content-based routing of a message to the Blue service:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 18" width="640" height="292"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Now that we’ve seen the quickstart run correctly, it’s time to introduce a bug, and then use the debugger to find it. For this illustration, we’ll use a different quickstart.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="giving-a-quickstart-a-bug"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#giving-a-quickstart-a-bug"&gt;&lt;/a&gt;Giving a Quickstart a Bug&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Remember the scene in the movie “Independence Day,” when Will Smith uploads a software virus into the evil aliens’ spaceship? Let’s do something similar and add a bug into a quickstart, and then use the debugger to find the bug and even fix it.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Some of the types of bugs that you have to deal with in a services and message based system involve when there are problems in the content in the messages, and how the services are (or are not) able to handle those problems.  What sorts of bad things can happen to good messages? Missing a field, wrong namespace, malformed XML, errors in the headers, etc. The debugger makes it possible to tweak a message to debug a problem, without having to redeploy the service.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The quickstart that we’ll look at is “validate-xml.” This quickstart demonstrates the SwitchYard XML validator. The quickstart deploys a service that accepts a message and returns an object that is transformed with XLST. The incoming message is checked for XML validity, so that malformed messages are caught. Before we can run the quickstart, it must be deployed in the same manner as the rules-camel-cbr quickstart that we looked at earlier in this article.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The quickstart’s application diagram is very simple as only one service (“OrderService”) is implemented. This service only accepts a message and returns an object that is processed by the XLST transformer, but it’s adequate for our purposes. The diagram looks like this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 19" width="400" height="249"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The test application that we want to run is: validate-xml/src/test/java/org/switchyard/quickstarts/validate/xml/WebServiceTest.java&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;This application executes separate two Junit tests. First, it verifies that a properly formatted SOAP message can be transformed and validated, and then it verifies that an intentionally malformed SOAP message (that is, a message that contains invalid XML) is caught.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Before we look at causing and catching a bug, let’s examine the message tansformation that is performed by this quickstart. The transformation is performed with the order.xslt file in the quickstart. It’s a simple transformation in that it transforms incoming messages that look like this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="literalblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre&gt;&amp;lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"&amp;gt;
+        &amp;lt;soapenv:Header/&amp;gt;
+        &amp;lt;soapenv:Body&amp;gt;
+        &amp;lt;orders:order xmlns:orders="urn:switchyard-quickstart:validate-xml:0.1.0"&amp;gt;
+           &amp;lt;orderId&amp;gt;PO-19838-XYZ&amp;lt;/orderId&amp;gt;
+           &amp;lt;itemId&amp;gt;BUTTER&amp;lt;/itemId&amp;gt;
+           &amp;lt;quantity&amp;gt;200&amp;lt;/quantity&amp;gt;
+        &amp;lt;/orders:order&amp;gt;
+        &amp;lt;/soapenv:Body&amp;gt;
+      &amp;lt;/soapenv:Envelope&amp;gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Into objects that look like this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="literalblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre&gt;&amp;lt;SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"&amp;gt;
+        &amp;lt;SOAP-ENV:Header/&amp;gt;
+        &amp;lt;SOAP-ENV:Body&amp;gt;
+        &amp;lt;orders:orderAck xmlns:orders="urn:switchyard-quickstart:validate-xml:0.1.0"&amp;gt;
+           &amp;lt;orderId&amp;gt;PO-19838-XYZ&amp;lt;/orderId&amp;gt;
+           &amp;lt;accepted&amp;gt;true&amp;lt;/accepted&amp;gt;
+           &amp;lt;status&amp;gt;Order Accepted&amp;lt;/status&amp;gt;
+        &amp;lt;/orders:orderAck&amp;gt;
+        &amp;lt;/SOAP-ENV:Body&amp;gt;
+      &amp;lt;/SOAP-ENV:Envelope&amp;gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The change simply indicates whether the incoming order was accepted.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;If we set our breakpoint on the “OrderService” service:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 20" width="148" height="84"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;And then run/debug the WebServiceTest, we can view the message, before and after its transformation, in the debugger. Here’s the message before transformation:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 21" width="640" height="588"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;And here’s the message after its transformation:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 22" width="640" height="404"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The second test in the WebServiceTest intentionally sends a message that includes an invalid XML element.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The invalid SOAP message looks like this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="literalblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre&gt;&amp;lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"&amp;gt;
+        &amp;lt;soapenv:Header/&amp;gt;
+        &amp;lt;soapenv:Body&amp;gt;
+        &amp;lt;orders:order xmlns:orders="urn:switchyard-quickstart:validate-xml:0.1.0"&amp;gt;
+           &amp;lt;orderId&amp;gt;PO-19838-XYZ&amp;lt;/orderId&amp;gt;
+           &amp;lt;itemId&amp;gt;BUTTER&amp;lt;/itemId&amp;gt;
+           &amp;lt;quantity&amp;gt;200&amp;lt;/quantity&amp;gt;
+           &amp;lt;invalid-element&amp;gt;This element is not allowed by XML Schema.&amp;lt;/invalid-element&amp;gt;
+        &amp;lt;/orders:order&amp;gt;
+        &amp;lt;/soapenv:Body&amp;gt;
+      &amp;lt;/soapenv:Envelope&amp;gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Yes, it’s easy to spot the invalid XML.   ;-)&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Let’s expand on this test application a bit and alter it to not gracefully trap the error resulting from the invalid XML. To do this, we’ll edit the invokeOrderWebServiceValidationFail() method and change this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="literalblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre&gt;Assert.assertTrue("Unexpected response: " + response, response.contains("1 validation error(s)") &amp;amp;&amp;amp; response.contains("invalid-element"));&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;To this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="literalblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre&gt;Assert.assertFalse("Unexpected response: " + response, response.contains("1 validation error(s)") &amp;amp;&amp;amp; response.contains("invalid-element"));&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;So that when we run the test, we see this JUnit error:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="literalblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre&gt;java.lang.AssertionError: Unexpected response: &amp;lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&amp;gt;&amp;lt;soap:Body&amp;gt;&amp;lt;soap:Fault&amp;gt;&amp;lt;faultcode&amp;gt;soap:Server&amp;lt;/faultcode&amp;gt;&amp;lt;faultstring&amp;gt;SWITCHYARD014000: Validator 'org.switchyard.validate.xml.internal.XmlValidator' failed: 1 validation error(s):
+      org.xml.sax.SAXParseException: cvc-complex-type.2.4.d: Invalid content was found starting with element 'invalid-element'. No child element is expected at this point.
+      &amp;lt;/faultstring&amp;gt;&amp;lt;/soap:Fault&amp;gt;&amp;lt;/soap:Body&amp;gt;&amp;lt;/soap:Envelope&amp;gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Before we can debug the OrderService, we must set our breakpoint:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 23" width="148" height="84"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Then we edit the breakpoint’s properties. For our example, we want the trigger to be set for the validation of incoming messages:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 24" width="640" height="441"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;When we run/debug the WebServiceTest program, the breakpoint is reached and we can examine the message contents:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 25" width="640" height="447"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;And, there’s the invalid XML element. What makes the debugger especially useful is that we can now edit the message and remove the invalid XML:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="debugger 26" width="640" height="448"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;And then allow the program to resume its operation. In this way, we can determine if the program has any other bugs before we correct the cause of the invalid XML, redeploy, etc.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="in-conclusion"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#in-conclusion"&gt;&lt;/a&gt;In Conclusion&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;We’ve taken an introductory look at the new SwitchYard debugger in this article. The debugger enables you to debug not just a class or method, but a Switchyard service. The debugger is configured through the SwitchYard graphical service/application editor and enables you to both monitor and control the operation of a service to make it easier for you to find those pesky bugs and is a great addition to the SwitchYard developer toolkit.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="acknowledgements"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#acknowledgements"&gt;&lt;/a&gt;Acknowledgements&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The author would like to thank Rob Cernich for his input and reviews of the article as it was being written, Keith Babo for his background on the SwitchYard editor, and Jiri Sedlacek for his painstaking review of my sometimes suspect grammar. (Many thanks!)&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="references"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#references"&gt;&lt;/a&gt;References&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;JBoss SwitchYard - &lt;a rel="nofollow" target="_blank" href="http://switchyard.jboss.org" class="bare"&gt;http://switchyard.jboss.org&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Discussion on JBoss SwitchYard Debugger - &lt;a rel="nofollow" target="_blank" href="https://community.jboss.org/message/849326#849326" class="bare"&gt;https://community.jboss.org/message/849326#849326&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;OASIS Service Component Architecture Assembly Model Specification - &lt;a rel="nofollow" target="_blank" href="http://docs.oasis-open.org/opencsa/sca-assembly/sca-assembly-spec-v1.1.html" class="bare"&gt;http://docs.oasis-open.org/opencsa/sca-assembly/sca-assembly-spec-v1.1.html&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;JBoss Tools Integration Stack Development updatesite (SwitchYard Tooling for Eclipse) - &lt;a rel="nofollow" target="_blank" href="http://download.jboss.org/jbosstools/updates/development/luna/integration-stack/" class="bare"&gt;http://download.jboss.org/jbosstools/updates/development/luna/integration-stack/&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Earlyaccess of JBoss Tools Integration Stack - link:/blog/2014-11-13-JBTIS-Beta1-for-luna.html&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/fzbaw1f_CEc" height="1" width="1"/&gt;</description>
+         <author>ldimaggio</author>
+         <guid isPermaLink="false">http://tools.jboss.org/blog/2014-11-14-switchyard-debugger.html</guid>
+         <pubDate>Fri, 14 Nov 2014 00:00:00 +0000</pubDate>
+      <feedburner:origLink>http://tools.jboss.org/blog/2014-11-14-switchyard-debugger.html</feedburner:origLink></item>
+      <item>
+         <title>Early access to Luna capable integration tools.</title>
+         <link>http://feedproxy.google.com/~r/jbossbuzz/~3/yE5mGreyzJs/2014-11-13-JBTIS-Beta1-for-luna.html</link>
+         <description>&lt;div id="preamble"&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;&lt;strong&gt;JBoss Tools Integration Stack 4.2.0.Beta1 / JBoss Developer Studio Integration Stack 8.0.0.Beta1&lt;/strong&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img alt="jbosstools jbdevstudio blog header"&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The Integration Stack for JBoss Tools Developer Studio is a set of plugins for Eclipse that provides tooling for the following frameworks.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="jboss-business-process-and-rules-development"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#jboss-business-process-and-rules-development"&gt;&lt;/a&gt;JBoss Business Process and Rules Development&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/features/bpel.html"&gt;BPEL Designer&lt;/a&gt; - Orchestrating your business processes.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/features/bpmn2.html"&gt;BPMN2 Modeler&lt;/a&gt; - A graphical modeling tool which allows creation and editing of Business Process Modeling Notation diagrams using graphiti.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/features/drools.html"&gt;Drools&lt;/a&gt; - A Business Logic integration Platform which provides a unified and integrated platform for Rules, Workflow and Event Processing.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/features/jbpm.html"&gt;jBPM&lt;/a&gt; - A flexible Business Process Management (BPM) suite.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="jboss-data-virtualization-development"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#jboss-data-virtualization-development"&gt;&lt;/a&gt;JBoss Data Virtualization Development&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/features/modeshape.html"&gt;Modeshape&lt;/a&gt; - A distributed, hierarchical, transactional and consistent data store with support for queries, full-text search, events, versioning, references, and flexible and dynamic schemas. It is very fast, highly available, extremely scalable, and it is 100% open source.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/features/teiiddesigner.html"&gt;Teiid Designer&lt;/a&gt; - A visual tool that enables rapid, model-driven definition, integration, management and testing of data services without programming using the Teiid runtime framework.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="jboss-integration-and-soa-development"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#jboss-integration-and-soa-development"&gt;&lt;/a&gt;JBoss Integration and SOA Development&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;All of the Business Process and Rules Development plugins, plus&amp;#8230;&amp;#8203;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/features/apachecamel.html"&gt;Fuse Apache Camel Tooling&lt;/a&gt; - A graphical tool for integrating software components that works with Apache ServiceMix, Apache ActiveMQ, Apache Camel and the FuseSource distributions.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/features/switchyard.html"&gt;SwitchYard&lt;/a&gt; - A lightweight service delivery framework providing full lifecycle support for developing, deploying, and managing service-oriented applications.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="soa-5-x-development"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#soa-5-x-development"&gt;&lt;/a&gt;SOA 5.x Development&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://www.jboss.org/jbossesb"&gt;JBoss ESB&lt;/a&gt; - An enterprise service bus for connecting enterprise applications and services.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://docs.jboss.com/jbpm/v3.2/userguide/html_single/"&gt;jBPM3&lt;/a&gt; - A flexible Business Process Management (BPM) Suite - JBoss Enterprise SOA Platform 5.3.x compatible version.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;All of these components have been verified to work with the same dependencies as JBoss Tools 4.2 and Developer Studio 8.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="installation"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#installation"&gt;&lt;/a&gt;Installation&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;To install the Integration Stack tools, first install JBoss Developer Studio from the &lt;a rel="nofollow" target="_blank" href="https://www.jboss.org/products/devstudio.html"&gt;all-in-one installer&lt;/a&gt;, bundled and configured out of the box with everything you need to get started. Alternatively, if you already have eclipse-jee-luna installed, you can install &lt;a rel="nofollow" target="_blank" href="https://marketplace.eclipse.org/content/red-hat-jboss-developer-studio-luna"&gt;JBoss Developer Studio&lt;/a&gt; or &lt;a rel="nofollow" target="_blank" href="https://marketplace.eclipse.org/content/jboss-tools-luna"&gt;JBoss Tools&lt;/a&gt; from the Eclipse Marketplace via Help &amp;gt; Eclipse Marketplace&amp;#8230;&amp;#8203;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;&lt;span class="image"&gt;&lt;img src="http://tools.jboss.org/blog/images/jbtis-luna-em.png" alt="jbtis-luna-em"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Once Developer Studio is installed, restart Eclipse and select the Software/Update tab in the JBoss Central view.  The current 8.0.0.Beta1 integration stack is available as "Early Access" so you must check the "Enable Early Access" checkbox in the installer window.  Select the items you&amp;#8217;d like to install:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;&lt;span class="image"&gt;&lt;img src="http://tools.jboss.org/blog/images/jbdsis-ea.png" alt="jbdsis-ea"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The standard p2 installer is available for JBDSIS.  Simply start jbdevstudio or eclipse-with-jbds, then:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="listingblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre class="highlight"&gt;&lt;code class="language-xml"&gt;       Help &amp;gt; Install New Software...
+             Add...
+             - use this for 'Location:'
+               https://devstudio.redhat.com/updates/8.0-development/integration-stack/&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The community JBoss Tools Integration Stack (JBTIS) installation is easy as well.  If you already have eclipse-jee-luna installed, install &lt;a rel="nofollow" target="_blank" href="https://marketplace.eclipse.org/content/jboss-tools-luna"&gt;JBoss Tools&lt;/a&gt; from the Eclipse Marketplace via Help &amp;gt; Eclipse Marketplace&amp;#8230;&amp;#8203;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;&lt;span class="image"&gt;&lt;img src="http://tools.jboss.org/blog/images/jbtis-luna-em.png" alt="jbtis-luna-em"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Once JBoss Tools is installed, restart Eclipse and select the Software/Update tab in the JBoss Central view.  The current 4.2.0.Beta1 integration stack is available as "Early Access" so you must check the "Enable Early Access" checkbox in the installer window.  Select the items you&amp;#8217;d like to install:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;&lt;span class="image"&gt;&lt;img src="http://tools.jboss.org/blog/images/jbtis-ea.png" alt="jbtis-ea"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The standard p2 installer is available for JBTIS.  Simply start eclipse-with-jbt, then:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="listingblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;       Help &amp;gt; Install New Software...
+             Add...
+             - use this for 'Location:'
+               http://download.jboss.org/jbosstools/updates/development/luna/integration-stack/&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Note: If you installed into your own Eclipse you should bump up the launch resource parameters:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="listingblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre class="highlight"&gt;&lt;code class="language-xml"&gt;--launcher.XXMaxPermSize 256m --launcher.appendVmargs -vmargs -Dosgi.requiredJavaVersion=1.6 -XX:MaxPermSize=256m -Xms512m -Xmx1024m&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="what-s-been-updated"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#what-s-been-updated"&gt;&lt;/a&gt;What&amp;#8217;s Been Updated?&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;This is a Beta1 release so some things are in flux but virtually every component has something new or updated.  Here&amp;#8217;s a small list of what&amp;#8217;s new:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="sect2"&gt;
+      &lt;h3 id="bpmn2-modeler"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#bpmn2-modeler"&gt;&lt;/a&gt;BPMN2 Modeler&lt;/h3&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;See &lt;a rel="nofollow" target="_blank" href="https://www.eclipse.org/bpmn2-modeler/whatsnew/whatsnew-1.1.1.php" class="bare"&gt;https://www.eclipse.org/bpmn2-modeler/whatsnew/whatsnew-1.1.1.php&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect2"&gt;
+      &lt;h3 id="fuse-tooling"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#fuse-tooling"&gt;&lt;/a&gt;Fuse Tooling&lt;/h3&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;Improved server adapters for JBoss Fuse Tooling.  More logical deployment and publishing of your projects from the Servers view.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;There&amp;#8217;s new Camel route debug support in the Fuse Camel route editor.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;See  &lt;a rel="nofollow" target="_blank" href="http://lhein.blogspot.com/2014/07/improved-server-adapters-for-jboss-fuse.html"&gt;Lars Heinemann&amp;#8217;s Blog&lt;/a&gt; for more insights.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect2"&gt;
+      &lt;h3 id="teiid-designer"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#teiid-designer"&gt;&lt;/a&gt;Teiid Designer&lt;/h3&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Three releases for Teiid Designer, see &lt;a rel="nofollow" target="_blank" href="https://developer.jboss.org/wiki/TeiidDesigner84WhatsNew"&gt;Teiid Designer 8.4&lt;/a&gt;, &lt;a rel="nofollow" target="_blank" href="https://developer.jboss.org/wiki/TeiidDesigner85WhatsNew"&gt;Teiid Designer 8.5&lt;/a&gt; and &lt;a rel="nofollow" target="_blank" href="https://developer.jboss.org/wiki/TeiidDesigner86WhatsNew"&gt;Teiid Designer 8.6&lt;/a&gt; What&amp;#8217;s New.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="keep-up-to-date-with-the-jboss-tools-home"&gt;
+      &lt;a rel="nofollow" class="anchor" href="#keep-up-to-date-with-the-jboss-tools-home"&gt;&lt;/a&gt;Keep up to date with the JBoss Tools home&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Don&amp;#8217;t miss the &lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/features"&gt;Features tab&lt;/a&gt; for up to date information on your favorite Integration Stack component!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/yE5mGreyzJs" height="1" width="1"/&gt;</description>
+         <author>pleacu</author>
+         <guid isPermaLink="false">http://tools.jboss.org/blog/2014-11-13-JBTIS-Beta1-for-luna.html</guid>
+         <pubDate>Thu, 13 Nov 2014 00:00:00 +0000</pubDate>
+      <feedburner:origLink>http://tools.jboss.org/blog/2014-11-13-JBTIS-Beta1-for-luna.html</feedburner:origLink></item>
+      <item>
+         <title>This week in JBoss (8th November 2014): Monitoring, Mapping and Travelling with JBoss</title>
+         <link>http://feedproxy.google.com/~r/jbossbuzz/~3/QPqjlKIflNM/this-week-in-jboss-8th-november-2014-monitoring-mapping-and-travelling-with-jboss</link>
+         <description>&lt;div class="jive-rendered-content"&gt;&lt;p&gt;Welcome to this week's Editorial, a summary of the news and events that have been happening throughout the JBoss Community.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Monitoring through RHQ&lt;/h2&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;There has been a lot of work taking place within RHQ and associated projects this week, fortunately a number of the team have been busy writing articles describing the efforts under way.&amp;nbsp; In the first post of the week Heiko has written an article introducing the work being done to integrate RHQ monitoring with &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://influxdb.com/"&gt;InfluxDB&lt;/a&gt;, highlighting this by &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://hbraun.info/2014/11/monitoring-wildfly-using-influxdb/"&gt;demonstrating how to use RHQ and InfluxDB to monitor WildFly instances&lt;/a&gt;.&amp;nbsp; Thomas &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://tsegismont.blogspot.ca/2014/11/netty-decoder-for-collectd-binary.html"&gt;introduces the work being done on netty-collectd&lt;/a&gt;, the netty decoded for the collectd binary protocol, discusses the current status of the work and the plans to incorporate this work into &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="https://github.com/rhq-project/rhq-metrics/tree/master/clients/ptranslator"&gt;ptrans&lt;/a&gt;, the protocol translator used within RHQ.&amp;nbsp; John &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://management-platform.blogspot.ca/2014/11/using-new-maven-wildfly-extension.html"&gt;describes how to use the new WildFly Extension Installer maven plugin&lt;/a&gt;, allowing RHQ to deploy a message broker directly into an existing WildFly or EAP installation and follows up with a second article &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://management-platform.blogspot.ca/2014/11/using-message-broker-to-send-audit.html"&gt;discussing how a message broker can be used to send and receive Auditing events&lt;/a&gt;.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Arun's Tip Corner&lt;/h2&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Arun has written two tips for us this week, both of which have a cloud theme.&amp;nbsp; In his first tip of the week Arun explains how easy it is to manage OpenShift with command line tools by &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.arungupta.me/2014/11/create-wildfly-openshift-application-cli-rhc-techtip52/"&gt;using those tools to provision an instance of&amp;nbsp; WildFly on OpenShift&lt;/a&gt;.&amp;nbsp; In his second tip of the week Arun introduces &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.arungupta.me/2014/11/stomp-over-websocket-tech-tip-53/"&gt;STOMP, the Simple Text Oriented Messaging Protocol, and demonstrates how STOMP can be used over the WebSockets API&lt;/a&gt;.&amp;nbsp; In his STOMP demonstration Arun creates an instance of ActiveMQ running on OpenShift and uses this as the STOMP server for a local instance of WildFly.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Infinispan: Soft-Index File Store and Map behaviour&lt;/h2&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;The Infinispan team have recently introduced a new local file based Cache Store, the Soft-Index File Store, intended to address some of the drawbacks associated with the Single File Store, it uses a B+ tree implementation that is cached in memory and offloaded to the filesystem.&amp;nbsp; &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.infinispan.org/2014/10/soft-index-file-store.html"&gt;Radim has some more details of the cache store&lt;/a&gt;, including a discussion on the implementation details and its known limitations.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;In versions of Infinispan preceding 7.0.0.Final the Map implementation would return the local node size, often confusing those who were coming across this behaviour for the first time; &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.infinispan.org/2014/11/why-doesnt-mapsize-return-size-of.html"&gt;in Infinispan 7.0.0.Final this all changes&lt;/a&gt;.&amp;nbsp; The 7.0.0.Final release introduces a Distributed Entry Iterator, providing a memory efficient way to iterate over all entries in the cache and providing the basis for reimplementing some of the bulk methods such as size, now returning the size of the entire cluster rather than only the local node set.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Travelling and Rich Clients with Drools and jBPM&lt;/h2&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Business processes and rules engines can be put to use in many industries, providing solutions to complex problems that have a requirement for process, events and the evaluation of rules.&amp;nbsp; If you have an need for this type of solution, but perhaps find getting started to be a daunting proposition, then &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.schabell.org/2014/10/how-to-excite-travel-agencies-with-bpm-story.html"&gt;take a look at the Travel Agency Demo introduced by Eric Schabell&lt;/a&gt;.&amp;nbsp; The project was created by two of our UK colleagues, Niraj Patel and Shepherd Chengeta, and is a great example of a solution that encompasses process and rules engines.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Mark Proctor recently gave a presentation covering the UI efforts that are underway within the Drools and jBPM projects, &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.athico.com/2014/11/red-hat-jboss-brms-and-bpms-workbench.html"&gt;demonstrating the technologies being developed and their flexibility&lt;/a&gt; when being used to implement web based UI.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Upcoming Ceylon Features&lt;/h2&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;The Ceylon team are busy discussing the priorities for development tasks aimed at the 1.1.5 and 1.2 versions of Ceylon, &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://ceylon-lang.org/blog/2014/10/19/plan/"&gt;asking the community for help in determining the direction&lt;/a&gt;.&amp;nbsp; During these discussions they have identified a number of new features to be added, both within the libraries and the languages syntax.&amp;nbsp; Check out Gavin's post on &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://ceylon-lang.org/blog/2014/11/03/plan/"&gt;those features that are currently being worked on&lt;/a&gt; and remember to provide feedback to help shape the future of the Ceylon language.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Upcoming Fabric8 Changes&lt;/h2&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;If you have been using &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://fabric8.io/"&gt;Fabric8&lt;/a&gt; to manage your Camel, ActiveMQ etc. deployments then you may already be aware that there is a big change being introduced with fabric8 2.0.&amp;nbsp; This will widen the scope of the applications that can be managed and will embrace Kubernetes and Docker.&amp;nbsp; For more information on what this means check out &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://rajdavies.blogspot.ca/2014/11/fabric8-version-20-released-next.html"&gt;Rob's post where he discusses these upcoming changes&lt;/a&gt;.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Confused over Camel Endpoints?&lt;/h2&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Have you ever used Camel endpoints?&amp;nbsp; Have you struggled to find out how to configure those endpoints and achieve the behaviour&amp;nbsp; you are after?&amp;nbsp; If so then you will be very interested to hear that &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.davsclaus.com/2014/11/apache-camel-please-explain-me-what.html"&gt;Camel 2.15 is introducing a new capability that enables endpoints to self-describe&lt;/a&gt;.&amp;nbsp; The endpoints will now have the ability to explain how they are configured and what each configuration option is used for.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;JBoss Out and About&lt;/h2&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Gavin and St&amp;#233;phane have recently been presenting Ceylon at some of the Java User Groups along the East Coast of the USA, &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.arungupta.me/2014/11/ceylon-jug-tour-2014-summary/"&gt;for more information read Arun's write up of the event&lt;/a&gt;.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Arun and the Devoxx4Kids team recently &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.arungupta.me/2014/10/devoxx4kids-javaone-2014-wrapup/"&gt;ran an event during JavaOne 2014&lt;/a&gt;.&amp;nbsp; The event was very well attended with 136 kids turning up to learn about Arduino, Lego Mindstorms, Minecraft Modding and many more topics.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Next week sees the return of &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.devoxx.be/"&gt;Devoxx to Antwerp, Belgium&lt;/a&gt;.&amp;nbsp; Eric Schabell will be delivering a &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.schabell.org/2014/11/how-to-get-rid-of-your-cloud-insecurities.html"&gt;University session on Monday afternoon&lt;/a&gt; showing everyone how easy it is to get &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://cfp.devoxx.be/2014/talk/QKM-0129/Mastering%20xPaaS%20-%20get%20down%20and%20dirty%20in%20the%20OpenShift%20Cloud"&gt;started with xPaaS using OpenShift Cloud&lt;/a&gt;.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;New Releases&lt;/h2&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;- The &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://aerogear.org/"&gt;AeroGear&lt;/a&gt; team have announced &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://aerogear.org/news/2014/11/06/aerogear-push-1.0.2-is-out/index.html"&gt;UnifiedPush Server 1.0.2&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;- The &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://infinispan.org/"&gt;Infinispan&lt;/a&gt; team have announced the release of &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.infinispan.org/2014/11/infinispan-700final-is-out.html"&gt;Infinispan 7.0.0.Final&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;- The &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://forge.jboss.org/"&gt;Forge&lt;/a&gt; team have announced the release of &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://forge.jboss.org/news/2014-11-07/forge-2.12.2.final-(pins)-is-here"&gt;Forge 2.12.2.Final&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;- The &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://teiid.org/"&gt;Teiid&lt;/a&gt; team have announced the release of &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://teiid.blogspot.ca/2014/11/teiid-89-cr3.html"&gt;Teiid 8.9 CR3&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;- The &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://arquillian.org/"&gt;Arquillian&lt;/a&gt; team have announced the &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://arquillian.org/blog/2014/10/31/arquillian-extension-jacoco-1-0-0-Alpha7/"&gt;1.0.0.Alpha7 release of Arquillian Extension Jacoco&lt;/a&gt;.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;That's all for this week, please join us again next week when we will bring you more news and events from the JBoss Community.&lt;/p&gt;&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/QPqjlKIflNM" height="1" width="1"/&gt;</description>
+         <author>Kevin Conner</author>
+         <guid isPermaLink="false" />
+         <pubDate>Sat, 08 Nov 2014 19:59:43 +0000</pubDate>
+      <feedburner:origLink>https://developer.jboss.org/blogs/weekly-editorial/2014/11/08/this-week-in-jboss-8th-november-2014-monitoring-mapping-and-travelling-with-jboss</feedburner:origLink></item>
+      <item>
          <title>This week in JBoss (30 October 2014): Halloween one more time</title>
          <link>http://feedproxy.google.com/~r/jbossbuzz/~3/vJ0VKmsv-Bk/this-week-in-jboss-30-october-2014-halloween-one-more-time</link>
          <description>&lt;div class="jive-rendered-content"&gt;&lt;p&gt;&lt;em&gt;A year ago, I published my very first JBoss Weekly Editorial (at this point, you should hear in your head &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://en.wikipedia.org/wiki/Moulin_Rouge!"&gt;Moulin Rouge&lt;/a&gt;'s version of "Like a Virgin"). This post is just a day before the (in)famous holiday of Halloween. I'm quite used to this time slot coming back to me, as a kind of twisted anniversary, the kind of anniversary, where Beetlejuice would not mind crashing. Oh, and of course, Halloween gave me a perfect excuse to Google out some more funny/geeky looking pumpkin pictures...&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;&lt;br/&gt;&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://www.flickr.com/photos/oskay/283388408/in/photostream/"&gt;&lt;img src="http://farm1.staticflickr.com/110/283388408_36ebf69f72_z_d.jpg?zz=1" width="50%"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h1&gt;Infinispan&lt;/h1&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://design.jboss.org/infinispan/logo/images/infinispan_logo_600px.png"&gt;&lt;img height="50%" src="http://design.jboss.org/infinispan/logo/images/infinispan_logo_600px.png" style="float:left;margin:10px;" width="20%"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;It's funny how, sometimes, some great feature of a product somehow goes unnoticed (so to speak). It appears that is the case with the cross site replication of Infinispan, but the team remedied that in this&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.infinispan.org/2014/10/cross-site-replication-state-transfer.html"&gt; short blog entry&lt;/a&gt;, giving you the right pointers - especially on how to activate state transfer.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;On top of that, the release of new major version, 7.0, is coming along nicely. Indeed, the Infinispan &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.infinispan.org/2014/10/infinispan-hotrod-net-client-700cr2.html"&gt;HotRod Client for .NET&lt;/a&gt; and for&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.infinispan.org/2014/10/infinispan-hotrod-c-client-700cr2.html"&gt; C++&lt;/a&gt; were both released (CR2) early this week. If you are running on those platforms, it's perfect time for you to check out what Infinispan can do for you!&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h1&gt;LiveOak Beta01 !&lt;/h1&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://design.jboss.org/liveoak/logo/final/liveoak_logo_vert_forlight_600px.gif"&gt;&lt;img class="jiveImage" height="10%" src="http://design.jboss.org/liveoak/logo/final/liveoak_logo_vert_forlight_600px.gif" style="float:right;margin:10px;" width="10%"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;In case you missed it, &lt;span style="font-size:10pt;line-height:1.5em;"&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://liveoak.io/"&gt;LiveOak &lt;/a&gt;is a backend-as-a-service stack that simplifies development for mobile and standard web clients. Its goal is to enable client-side access to traditional backend services without having to write server-side code. &lt;/span&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;LiveOak's fundamental architectural approach is REST to the core. LiveOak provides publish/subscribe, push-to-the-mobile-client, and REST-based APIs to shuffle data between mobile handsets, traditional desktops, and other servers in a local cluster or in the cloud.&lt;/span&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;And the project just released &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://liveoak.io/blog/2014/10/27/1_0_0_beta01/"&gt;its first beta&lt;/a&gt; ! Perfect timing to have a go with it !&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h1&gt;Teiid&lt;/h1&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://teiiddesigner.jboss.org/rightColumnParagraphs/00/imageBinary/teiid-logo.png"&gt;&lt;img src="http://teiiddesigner.jboss.org/rightColumnParagraphs/00/imageBinary/teiid-logo.png" style="float:left;"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;em&gt;&lt;br/&gt;&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Foreword; If you have still no idea what Teiid or data virtualization is about, shame on you &lt;span class="emoticon-inline emoticon_wink" style="height:16px;width:16px;"&gt;&lt;/span&gt; - go listen &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://teiid.blogspot.de/2014/08/teiid-in-jboss-community-asylum.html"&gt;this JBoss Asylum podcast&lt;/a&gt; which will tell you all about it.&lt;br/&gt;&lt;/em&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;The new release of Teiid is also coming nicely, as the &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://teiid.blogspot.de/2014/10/teiid-89-cr2.html"&gt;CR2&lt;/a&gt; has just been released this week. As always, community feedback is essential, so please go check it out and let us know what you think. Also, Ramesh Reddy, one of the Teiid core developers, will hold a &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://teiid.blogspot.de/2014/10/the-3-big-problems-with-data-and-how-to.html"&gt;webcast, on the 5th November on the 3 "big catches" of "big data"&lt;/a&gt; ( and obviously how to avoid them). &lt;span style="font-size:10pt;line-height:1.5em;"&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="https://vts.inxpo.com/scripts/Server.nxp?LASCmd=AI:4;F:APIUTILS!51004&amp;amp;PageID=657CAFB4-296B-4008-B864-F38CDE62F376&amp;amp;AffiliateData=70160000000eIy6AAE&amp;amp;elq=%3Cspan%20class=eloquaemail%3Erecipientid%3C/span%3E"&gt;Register for it !&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Note that this webinar is the first of the&amp;nbsp; Beyond Big Data Webinar Series, which will feature in total five webinars.&lt;/em&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h1&gt;Switchyard Primer&lt;/h1&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://design.jboss.org/switchyard/logo/final/switchyard_logo_600px.png"&gt;&lt;img src="http://design.jboss.org/switchyard/logo/final/switchyard_logo_600px.png" style="float:left;margin:5px;"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="https://plus.google.com/117970067900432788998"&gt;Kenneth Peeples&lt;/a&gt; just released a &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.ossmentor.com/2014/10/switchyard-primer.html"&gt;"Switchyard Primer"&lt;/a&gt; where he pulls together several topics around the product (and a special link to my coworker Jorge Morgales &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://unpoucode.blogspot.com.es/2014/10/switchyard-contracts.html"&gt;blog entry on some pitfalls of the contract definition with Camel and Switchyard&lt;/a&gt;). If you are looking for a nice deep introduction on Switchyard, this will fit the bill perfectly!&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h1&gt;A different take on things&lt;/h1&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;While the JBoss community is all about Open Source, the fact remains that even Open Source products have competitors - or at least alternatives, and it is almost always a very interesting exercise to take a hard look at yourself and your competition in order to enhance yourself (or, in this case, your product). However, it can be a daunting exercise to execute such an analysis. Fortunately,&amp;nbsp; the recently launched &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://rhjm.naszcyniec.com/blog/?p=9"&gt;"&lt;/a&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://rhjm.naszcyniec.com/blog/?p=9"&gt;Red Hat JBoss Middleware Competitive Perspectives"&lt;/a&gt; blog just released the second article of a series on this challenging topic:&lt;/span&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://rhjm.naszcyniec.com/blog/?p=42"&gt;Analyzing tricks competitors play &amp;#8211; Unvalidated and unchallengeable performance claims&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://rhjm.naszcyniec.com/blog/?p=37"&gt;Analyzing tricks competitors play &amp;#8211; making the claim that list price comparisons are misleading&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h1&gt;Tips and tricks&lt;/h1&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.arungupta.me/"&gt;Arun Gupta&lt;/a&gt; keeps on with his "techtips" series, and this week features the following interesting breadcrumbs:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.arungupta.me/2014/10/securing-websocket-wss-https-tls-techtip50/"&gt;Securing WebSocket&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.arungupta.me/2014/10/websocket-chat-wildfly-openshift-techtip51/"&gt;WebSocket Chat with Wildfly and OpenShift&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Also, if you are running &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="https://docs.jboss.org/author/display/RHQ/Home"&gt;RHQ&lt;/a&gt; to monitor and run your systems (or the product version of it, &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.redhat.com/en/technologies/jboss-middleware/operations-network"&gt;JBoss Operations Network&lt;/a&gt;), you might be quite interested in the release (1.0) of the &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://tsegismont.blogspot.de/2014/10/maven-plugin-for-rhq-agent-plugins-goes.html"&gt;RHQ Agent Maven plugin&lt;/a&gt;, which allows to easily build the agent. Go check it out!&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h1&gt;Decaf' - Docker, docker, docker...&lt;/h1&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;At this stage, I will not introduce Docker. If you are reading this blog and are not aware of Docker, you probably fit into to the same kind category of people who didn't get why people talk so much about bugs, especially "Beatles" during the 60's. I don't think I can help you &lt;span class="emoticon-inline emoticon_happy" style="height:16px;width:16px;"&gt;&lt;/span&gt;.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;But if you are following the trend, you might find these couple of articles quite interesting:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://developerblog.redhat.com/2014/10/24/openshift-v3-deep-dive-next-generation-paas-docker/"&gt;Openshift v3 (with Docker) - Deep Dive&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://iocanel.blogspot.de/2014/10/zookeeper-on-kubernetes.html"&gt;Zookeeper on Kubernetes&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/vJ0VKmsv-Bk" height="1" width="1"/&gt;</description>
@@ -1804,14 +3387,6 @@
          <pubDate>Fri, 04 Jul 2014 14:44:00 +0000</pubDate>
       <feedburner:origLink>https://developer.jboss.org/blogs/weekly-editorial/2014/07/04/this-week-in-jboss-4th-of-july-world-cup-soccer</feedburner:origLink></item>
       <item>
-         <title>This week in JBoss (26th June 2014): Cat, bytes and evangelists</title>
-         <link>http://feedproxy.google.com/~r/jbossbuzz/~3/euCAY83uMHw/this-week-in-jboss-26th-june-2014-cat-bytes-and-evangelists</link>
-         <description>&lt;div class="jive-rendered-content"&gt;&lt;h1 style="margin-top:10px;font-family:TitilliumText22LMedium, Helvetica, Arial, sans-serif;color:#656565;font-size:23px;background-color:#fefefe;"&gt;JBoss Tools Community Acceptance Testing aka CAT&lt;/h1&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;As you may be aware, the internet is often described as the "electronic cat database" as much of "the action" on it appears to be around cute pictures or videos of ... cats. There is already quite a good chance that you are no longer reading this blog entry - as some relative may have notified you of the latest cat-video-you-must-look-at....&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Anyway, it was time that the JBoss community joined the game &lt;span class="emoticon-inline emoticon_wink" style="height:16px;width:16px;"&gt;&lt;/span&gt; , and therefore we are proudly announcing the release of &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://tools.jboss.org/blog/2014-06-24-introducing-jbosstools-cat.html"&gt;JBoss Tools Community Acceptance Testing (CAT) &lt;/a&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;! Probably the most useful cat from the internet ! &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/images/jbosstools-cat-logo.png"&gt;&lt;img alt="jbosstools-cat-logo.png" class="image-0 jive-image jiveImage" src="http://tools.jboss.org/images/jbosstools-cat-logo.png"/&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;On top of this launch, the JBoss Tools community has also published the following releases:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://tools.jboss.org/blog/2014-06-19-JBTIS-4.html"&gt;JBoss Tools&amp;nbsp; - JBoss Tools Integration Stack 4.1.5.Final / JBoss Developer Studio Integration Stack 7.0.2.GA&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://tools.jboss.org/blog/2014-06-19-beta2-for-luna.html"&gt;JBoss Tools&amp;nbsp; - Beta2 for Luna - JavaScript, Monitoring and Early Access!&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h1&gt;&lt;/h1&gt;&lt;h1&gt;Byteman 2.2.0 is out&amp;nbsp; !&lt;/h1&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://2.bp.blogspot.com/-zkCSD71Mw2s/UcxVLfpux6I/AAAAAAAAAI0/Y7ifh1H0iaI/s650/byteman_logo_450px.png"&gt;&lt;img alt="byteman_logo_450px.png" class="jive-image image-3" src="http://2.bp.blogspot.com/-zkCSD71Mw2s/UcxVLfpux6I/AAAAAAAAAI0/Y7ifh1H0iaI/s650/byteman_logo_450px.png" style="height:auto;"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://bytemanblog.blogspot.de/2014/06/byteman-220-is-now-available.html"&gt;Byteman project has just released a new version, 2.2.0&lt;/a&gt;, filled with patches and bug fixes, along with one major feature - &lt;span style="color:#333333;font-family:Arial, Tahoma, Helvetica, FreeSans, sans-serif;font-size:13px;"&gt;annotation-based configuration for BMUnit tests (more on how to use it quite soon). If you have never tried this awesome tool, this new release is the perfect excuse to go do so !&lt;/span&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h1&gt;Teiid &amp;amp; ModeShape&lt;/h1&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Both part of the &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.redhat.com/products/jbossenterprisemiddleware/data-virtualization/"&gt;Red Hat JBoss Data Virtualization&lt;/a&gt; product, Teiid and ModeShape are getting quite close to their next release, so checkout out this week beta to have a nice preview in the coming features:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://teiid.blogspot.de/2014/06/teiid-88-beta2.html"&gt;Teiid 8.8 Beta 2 is out&lt;/a&gt; - the final release is plan for mid July, so go download and test this one and help the community make it even better before then !&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://2.bp.blogspot.com/_ZPDbRm0ycNw/SclKbpRIHnI/AAAAAAAAAAk/3VTgjxWrGZU/S1600-R/teiid-banner.png"&gt;&lt;img alt="teiid-banner.png" class="image-1 jive-image jiveImage" src="http://2.bp.blogspot.com/_ZPDbRm0ycNw/SclKbpRIHnI/AAAAAAAAAAk/3VTgjxWrGZU/S1600-R/teiid-banner.png" style="height:75px;width:620px;"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://modeshape.wordpress.com/2014/06/25/modeshape-4-0-0-alpha4-is-available/"&gt;ModeShape 4.0.0.Alpha4 is out&lt;/a&gt; - try the "simple cluster" feature along with the integration with Wildfly8.&lt;/li&gt;&lt;/ul&gt;&lt;h1&gt;&lt;/h1&gt;&lt;h1&gt;Other releases&lt;/h1&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;As always, the JBoss community is a thriving one and a very share of project did some prereleases last weeks:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.keycloak.org/2014/06/19/keycloak-beta-3-released-2/"&gt;Keycloak Beta 3&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://kverlaen.blogspot.de/2014/06/get-ready-for-jbpm-61-with-first.html"&gt;jBPM 6.1 first release candidate&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://arquillian.org/blog/2014/06/25/arquillian-core-1-1-5-Final/"&gt;Arquillian Core 1.1.5.Final&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://torquebox.org/news/2014/06/26/torquebox-3-1-1-released/"&gt;TorqueBox 3.1.1&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h1&gt;Evangelist's Corner - tutorial, demo, blog and video&lt;/h1&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;If you follow the JBoss Community activity regularly, you most likely have noticed that our evangelists (Eric Schabell or Arun Gupta, for instance) are producing a large amount of interesting content, almost everyday. But, if for some reason you are not yet familiar with all of them, take a look at "&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.ossmentor.com/2014/06/introducing-your-jboss-technology.html"&gt;Introducing your JBoss Technology Evangelist"&lt;/a&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;And to give you an idea of the excellent work they are doing, you can already check out what they have released just in the last days :&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;Arun Gupta - Wildfly and JEE&lt;br/&gt;&lt;/span&gt;&lt;ul&gt;&lt;li&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.arungupta.me/2014/06/deltaspike-1-0-extend-javaee-techtip32/"&gt;Going the extra miles with CDI - DeltaSpike&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.arungupta.me/2014/06/wildfly-plugin-integrated-netbeans-tech-tip-31/"&gt;Using Netbeans with Wildfly&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.arungupta.me/2014/06/javaee7-lab-wildfly-openshift-techtip33/"&gt;Wildfly &amp;amp; JEE7 lab&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Eric Schabell - all thing BRMS/BPM&lt;ul&gt;&lt;li&gt;A new lab in the ongoing &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.schabell.org/2014/06/redhat-jboss-bpmsuite-online-workshop-rewards-lab16-user-task-forms.html"&gt;BPM Suite Online Workshop&lt;/a&gt; series&lt;/li&gt;&lt;li&gt;BPM as Paas ? Confused ? Look this &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.schabell.org/2014/06/real-life-bpmpaas-with-jboss-bpmsuite-rewards-demo.html"&gt;"HR employee reward"&amp;nbsp; demo&lt;/a&gt; and the &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.schabell.org/2014/06/real-life-bpmpaas-jboss-bpmsuite-customer-evaluation-demo.html"&gt;"customer evaluation" one&lt;/a&gt; and see what happens when BPM meets Openshift !&lt;/li&gt;&lt;li&gt;At last, but not the least, some handy tips on &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.schabell.org/2014/06/red-hat-jboss-brms-bpm-suite-taking-out.html"&gt;using BRMS with Git&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Kenneth Peeples&lt;ul&gt;&lt;li&gt;Continues his workshop on &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.ossmentor.com/2014/06/red-hat-jboss-fuse-service-works.html"&gt;Fuse Services Works&lt;/a&gt; - time to learn anything Switchyard and Camel !&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;em&gt;If Max Katz is not one of our evangelist, he did nonetheless produce a very compelling video &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://maxkatz.org/2014/06/26/learn-how-to-debug-appery-io-mobile-apps-video/"&gt;http://maxkatz.org/2014/06/26/learn-how-to-debug-appery-io-mobile-apps-video/&lt;/a&gt; that is worth mentioning here.&lt;/em&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h1&gt;Decaf'&lt;/h1&gt;&lt;h1&gt;&lt;/h1&gt;&lt;h2&gt;ManageIQ is open source !&lt;/h2&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Outside the JBoss universe, Red Hat just released the source code of &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://manageiq.org/"&gt;ManageIQ&lt;/a&gt;, a cloud management product (EVM, which became &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.redhat.com/products/cloud-computing/cloudforms/"&gt;CloudForms&lt;/a&gt; at Red Hat). People inside the company have worked toward this goal for a little over two years and it is with great joy and pride that we relay the &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://tentenet.net/2014/06/19/the-third-tenet-of-open-source-open-source-requires-commitment-welcome-manageiq/"&gt;announcement&lt;/a&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;, full filling the commitment done in 2012.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tentenet.net/2014/06/19/the-third-tenet-of-open-source-open-source-requires-commitment-welcome-manageiq/"&gt;&lt;img alt="manageiq-logo-standard.png" class="jive-image image-2" src="https://rhtentenet.files.wordpress.com/2014/06/manageiq-logo-standard.png" style="height:153px;width:620px;"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;&lt;span style="color:#575757;"&gt;OpenSource Architect blog launched !&lt;/span&gt;&lt;/h2&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;My team, the Red Hat EMEA architect just fire a new blog, &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.opensourcearchitects.org/?q=node/1"&gt;Opensource Architect&lt;/a&gt; in order to give us a place to share our experience, as architect, both with, of course, Red Hat products, but also other Opensource software - and we leverage all of them to build our solutions. &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.opensourcearchitects.org/?q=blog/1"&gt;Malcolm Herbert&lt;/a&gt; just published an interesting article on the &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.opensourcearchitects.org/?q=node/3"&gt;level of adoption of DevOps&lt;/a&gt; in enterprise - go check it out !&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Hopefully you have found something in this week's editorial to pique your interest and give you something to explore while waiting for next week's installment.&amp;nbsp; Join us here next week for more news from the JBoss Community.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/euCAY83uMHw" height="1" width="1"/&gt;</description>
-         <author>Romain Pelisse</author>
-         <guid isPermaLink="false" />
-         <pubDate>Thu, 26 Jun 2014 18:07:23 +0000</pubDate>
-      <feedburner:origLink>https://developer.jboss.org/blogs/weekly-editorial/2014/06/26/this-week-in-jboss-26th-june-2014-cat-bytes-and-evangelists</feedburner:origLink></item>
-      <item>
          <title>Introducing JBoss Tools Community Acceptance Testing</title>
          <link>http://feedproxy.google.com/~r/jbossbuzz/~3/b5DmMyhzi38/2014-06-24-introducing-jbosstools-cat.html</link>
          <description>&lt;div id="preamble"&gt;
@@ -2287,14 +3862,6 @@
          <guid isPermaLink="false">http://tools.jboss.org/blog/2014-06-19-JBTIS-4.html</guid>
          <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
       <feedburner:origLink>http://tools.jboss.org/blog/2014-06-19-JBTIS-4.html</feedburner:origLink></item>
-      <item>
-         <title>This week in JBoss (13th June 2014): The game is on!</title>
-         <link>http://feedproxy.google.com/~r/jbossbuzz/~3/HC07Qc-l-x0/this-week-in-jboss-13th-june-2014</link>
-         <description>&lt;div class="jive-rendered-content"&gt;&lt;p&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;&lt;strong&gt;JUDCon 2014 - now in Boston!&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;In the past years, JUDCon editions held all around the globe has become a traditional place for JBoss users and developers to gather together, and share knowledge and ideas. Following the very successful JUDCon 2014 India, held earlier this year in Bangalore, comes JUDCon 2014 Boston, taking place at the end of this month, on June 28. While traditionally being held together with the Red Hat Summit, this year's edition will be standalone, as Mark Little &lt;a rel="nofollow" class="jive-link-blog-small" target="_blank" href="https://developer.jboss.org/blogs/mark.little/2014/06/02/judcon-boston-2014"&gt;explains&lt;/a&gt;. Not only that: this edition will also see a change of format, the traditional conference setup being replaced with a more developer friendly structured hackfest, as Arun Gupta explains in his &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.arungupta.me/2014/06/judcon-boston-2014-history-future/?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+MilesToGo+%28Miles+to+go+2.0%29"&gt;extensive coverage&lt;/a&gt; of the event, where you can also hear Andrew Rubinger, who drives this year's edition, describe it to the last detail.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;APAC Tech Exchange - from the trenches&lt;/strong&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Eric Schabell and Kenneth Peeples have published extensive overviews of the APAC Tech Exchange - an Asia/Pacific-focused Red Hat event, focusing on open-source new technologies and featuring an array of presentations and hand-off labs, which took place between June 10-12. This year's event was held virtually, but by no means it was less interesting - and you can learn that by reading their day by day accounts: Eric's about his &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.schabell.org/2014/06/apac-tech-exchange-day1-openshift-primer-jboss-xpaas.html?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+schabell%2Fjboss+%28Eric+D.+Schabell+-+JBoss%29"&gt;Openshift Primer, &lt;/a&gt;as well as his &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.schabell.org/2014/06/apac-tech-exchange-day2-jboss-brms-bpmsuite-workshop.html?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+schabell%2Fjboss+%28Eric+D.+Schabell+-+JBoss%29"&gt;BPM and BRMS workshop)&lt;/a&gt;, and Kenneth's about his presentations on &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.ossmentor.com/2014/06/apac-red-hat-technical-exchange.html"&gt;JBoss Middleware Security&lt;/a&gt;, &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.ossmentor.com/2014/06/data-virtualization-with-docker.html"&gt;Data virtualization with Docker&lt;/a&gt;, as well as &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.ossmentor.com/2014/06/fuse-service-works-with-docker-workshop.html"&gt;Fuse Service Works with Docker&lt;/a&gt;, &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.ossmentor.com/2014/06/fuse-service-works-with-docker-workshop.html"&gt;Fuse on OpenShift&lt;/a&gt;, and &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.ossmentor.com/2014/06/data-virtualization-and-big-data-at.html"&gt;Data Virtualization and Big Data.&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Testing with Aliens&lt;/strong&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;On the Arquillian team blog, Thorben Janssen provides a detailed &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://arquillian.org/blog/2014/06/11/Testing-with-Aliens-How-to-use-Arquillian-to-test-your-JPA-type-converter/"&gt;introduction&lt;/a&gt; to testing JPA type converters with Arquillian. While the focus is a specialized use of the more generic JPA persistence testing use case, it provides an excellent introduction and references to Arquillian JPA persistence testing in general, as well.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Meet Fabric8 (and get a DevOps outlook to it too)&lt;/strong&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;If you're building an enterprise integration solution and looking for an open-source platform to base on, you should really take a look at Fabric8, which sits at the core of JBoss Fuse 6.1. To help you Christian Posta has published two excellent articles, one to &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.christianposta.com/blog/?p=376"&gt;get you started on the platform&lt;/a&gt;, and the other addressing fabric8 from a &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.christianposta.com/blog/?p=393"&gt;DevOps perspective&lt;/a&gt;. You can access them directly, or through Claus Ibsen's blog &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.davsclaus.com/2014/06/meet-fabric8-and-video-of-fabric8.html?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+ApacheCamel+%28An+Apache+Camel+Rider+in+the+open+source+integration+world%29"&gt;post&lt;/a&gt;.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Secure reverse proxies for Wildfly with Apache 2.4&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Placing your application server behind secure reverse proxies is common practice when designing a system's architecture, especially one that targets a web audience. Often, the combination of HTTP/HTTPS server and application server has its own specifics, so it's helpful to have a guide in each particular case. To keep you in touch with the latest technology, Maurice de Chateau provides such an &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.dechateau.nl/2014/06/use-apache-24x-as-secure-reverse-proxy.html"&gt;example&lt;/a&gt; for Apache 2.4 and Wildfly 8 (8.1.0 Final) to be more specific.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Messaging with the Deuce (Immutant 2)&lt;/strong&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;While Immutant 2 makes significant progress towards its final release, the team continues to publish articles to get you started on the new features. This week, Toby Crawley provides a basic introduction to the messaging API, which will be followed by a more detailed introduction to more advanced topics.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;A new episode of Eric's online BRMS workshop&lt;/strong&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Eric has published a new &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://howtojboss.com/2014/06/13/red-hat-jboss-bpm-suite-online-workshop-building-a-rewards-demo-lab-15-completing-process-details/"&gt;episode&lt;/a&gt; of his online BRMS workshop, so it's time to catch up and see how to complete the details of the reward process. If you haven't watched the earlier episodes, it is a good time to do that, as well!&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Releases&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;From the Arquillian team: &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://arquillian.org/blog/2014/06/11/arquillian-container-osgi-1-1-0-Final/"&gt;Arquillian OSGI 1.1.0.Final&lt;/a&gt;, &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://arquillian.org/blog/2014/06/06/arquillian-recorder-1-0-0-Alpha3/"&gt;Arquillian Recorder 1.0.0.Alpha3&lt;/a&gt;&lt;/li&gt;&lt;li&gt;From the Teiid team: &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://teiid.blogspot.ca/2014/06/teiid-88-beta1.html"&gt;Teiid 8.8 Beta 1&lt;/a&gt;&lt;/li&gt;&lt;li&gt;From the Switchyard team: &lt;a rel="nofollow" class="jive-link-blog-small" target="_blank" href="https://developer.jboss.org/community/switchyard/blog/2014/06/11/switchyard-200alpha1-now-available"&gt;SwitchYard 2.0.0.Alpha1&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Upcoming events&lt;/strong&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Don't miss the &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://fhornain.wordpress.com/2014/06/14/red-hat-forum-2014-antwerp-23-june/"&gt;Red Hat Forum in Antwerp&lt;/a&gt;, which will take place on June 23!&lt;/p&gt;&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/HC07Qc-l-x0" height="1" width="1"/&gt;</description>
-         <author>Marius Bogoevici</author>
-         <guid isPermaLink="false" />
-         <pubDate>Sat, 14 Jun 2014 17:44:16 +0000</pubDate>
-      <feedburner:origLink>https://developer.jboss.org/blogs/weekly-editorial/2014/06/14/this-week-in-jboss-13th-june-2014</feedburner:origLink></item>
       <item>
          <title>We won a CODiE Award</title>
          <link>http://feedproxy.google.com/~r/jbossbuzz/~3/3-awEki4Ya8/2014-05-22-we-won-a-codie-award.html</link>
@@ -3986,7 +5553,7 @@ If you already have a Tycho-based build, it pretty easy:</p>
          <guid isPermaLink="false">http://mickaelistria.wordpress.com/?p=342</guid>
          <pubDate>Thu, 19 Apr 2012 12:41:40 +0000</pubDate>
          <content:encoded><![CDATA[<p>It&#8217;s been a few week since EclipseCon ended. It&#8217;s now time for a retrospective.</p>
-<div style="width:510px;" class="wp-caption aligncenter"><img title="RedHat" src="http://farm8.staticflickr.com/7242/6875296288_dd63828cd5.jpg" alt="" width="500" height="332"/><p class="wp-caption-text">Do you also know the <a rel="nofollow" target="_blank" href='http://www.redhatsociety.com/events/photos/RHSDay2011.html'>Red Hat Society</a>?</p></div>
+<img title="RedHat" src="http://farm8.staticflickr.com/7242/6875296288_dd63828cd5.jpg" alt="" width="500" height="332"/>
 <p>First, the event was great. Although I did not have time to view that many presentations, I was able to discuss with a lot of people about a lot of topics. I learned new stuff, and shared some knowledge. I made huge steps ahead in my own work, and helped people to go ahead in their own work too. I was also able to boost some projects I like and work in making them more widely used.<br />
 So I am pretty happy of this conference. Being at EclipseCon has and will improve my daily work, that&#8217;s the best thing to expect from this kind of event.</p>
 <h1>My Top #3 favourite talks</h1>
@@ -4142,4 +5709,4 @@ Petals Studio was also the pretext to start using <a rel="nofollow" target="_bla
          </media:content>
       <feedburner:origLink>http://mickaelistria.wordpress.com/2012/01/31/goodbye-petalslink-hello-jbossred-hat/</feedburner:origLink></item>
    </channel>
-</rss><!-- fe10.yql.bf1.yahoo.com compressed/chunked Fri Nov  7 06:22:39 UTC 2014 -->
+</rss><!-- fe5.yql.bf1.yahoo.com compressed/chunked Fri Nov 21 06:24:23 UTC 2014 -->
